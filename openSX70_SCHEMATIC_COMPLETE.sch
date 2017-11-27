@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -253,34 +253,8 @@
 </library>
 <library name="openSX70">
 <packages>
-<package name="SX70-S-PAD">
-<polygon width="0" layer="1">
-<vertex x="-1.2481" y="0.6853"/>
-<vertex x="1.2622" y="0.6853"/>
-<vertex x="1.2622" y="-1.0771"/>
-<vertex x="1.0364" y="-1.0771"/>
-<vertex x="1.0364" y="-0.8377"/>
-<vertex x="1.0296" y="-0.7709"/>
-<vertex x="1.0102" y="-0.7087"/>
-<vertex x="0.9795" y="-0.6522"/>
-<vertex x="0.9388" y="-0.603"/>
-<vertex x="0.8896" y="-0.5623"/>
-<vertex x="0.8331" y="-0.5316"/>
-<vertex x="0.7709" y="-0.5122"/>
-<vertex x="0.7041" y="-0.5054"/>
-<vertex x="-0.5853" y="-0.5054"/>
-<vertex x="-0.6521" y="-0.5122"/>
-<vertex x="-0.7143" y="-0.5316"/>
-<vertex x="-0.7708" y="-0.5623"/>
-<vertex x="-0.82" y="-0.603"/>
-<vertex x="-0.8607" y="-0.6522"/>
-<vertex x="-0.8914" y="-0.7087"/>
-<vertex x="-0.9108" y="-0.7709"/>
-<vertex x="-0.9176" y="-0.8377"/>
-<vertex x="-0.9176" y="-1.0771"/>
-<vertex x="-1.2481" y="-1.0771"/>
-</polygon>
-<smd name="P$1" x="0" y="-0.127" dx="1.27" dy="0.635" layer="1"/>
+<package name="SX70-S-PAD2">
+<smd name="P$1" x="0.01" y="0.087" dx="2.413" dy="1.143" layer="1"/>
 <text x="-0.762" y="0.254" size="0.3048" layer="21" ratio="4">&gt;NAME</text>
 </package>
 <package name="SX70-7-PAD">
@@ -293,20 +267,8 @@
 <smd name="S8" x="0.3556" y="6.8072" dx="1.31" dy="1.93" layer="1" rot="R296"/>
 </package>
 <package name="SX70-SOLENOID1-2">
-<polygon width="0" layer="1">
-<vertex x="-1.5391" y="1.3563"/>
-<vertex x="-0.1567" y="1.3563"/>
-<vertex x="-0.1567" y="-1.1826"/>
-<vertex x="-1.5391" y="-1.1826"/>
-</polygon>
-<polygon width="0" layer="1">
-<vertex x="0.2298" y="1.3592"/>
-<vertex x="1.6122" y="1.3592"/>
-<vertex x="1.6122" y="-1.1797"/>
-<vertex x="0.2298" y="-1.1797"/>
-</polygon>
-<smd name="SOL1+" x="-0.762" y="0.127" dx="0.635" dy="0.635" layer="1"/>
-<smd name="SOL1-" x="0.889" y="0" dx="0.635" dy="0.635" layer="1"/>
+<smd name="SOL1+" x="-0.8255" y="0.127" dx="1.3716" dy="2.54" layer="1"/>
+<smd name="SOL1-" x="0.9525" y="0.127" dx="1.3716" dy="2.54" layer="1"/>
 <text x="-1.524" y="1.397" size="0.4064" layer="21">&gt;NAME</text>
 </package>
 <package name="SOTFL50P300X75-6N">
@@ -778,12 +740,12 @@ Switches electronic signals</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SX70_S-PAD">
+<deviceset name="SX70-S-PAD-NEW">
 <gates>
-<gate name="G$1" symbol="OPENSX70_S-PAD" x="0" y="0"/>
+<gate name="G$1" symbol="OPENSX70_S-PAD" x="2.54" y="0"/>
 </gates>
 <devices>
-<device name="" package="SX70-S-PAD">
+<device name="" package="SX70-S-PAD2">
 <connects>
 <connect gate="G$1" pin="S" pad="P$1"/>
 </connects>
@@ -15667,13 +15629,13 @@ Source: AVX .. aphvc.pdf</description>
 <parts>
 <part name="U$1" library="openSX70" deviceset="SX70-7-PAD" device=""/>
 <part name="U$2" library="openSX70" deviceset="SX70-FFA-PAD" device=""/>
-<part name="BUZZ1" library="CSET8-5G_B" deviceset="CSET8-5G" device=""/>
-<part name="S2+" library="openSX70" deviceset="SX70_S-PAD" device=""/>
-<part name="S2-" library="openSX70" deviceset="SX70_S-PAD" device=""/>
-<part name="S1-" library="openSX70" deviceset="SX70_S-PAD" device=""/>
-<part name="S1+" library="openSX70" deviceset="SX70_S-PAD" device=""/>
-<part name="SOL2+" library="openSX70" deviceset="SX70_S-PAD" device=""/>
-<part name="SOL2-" library="openSX70" deviceset="SX70_S-PAD" device=""/>
+<part name="BUZZER" library="CSET8-5G_B" deviceset="CSET8-5G" device=""/>
+<part name="S2+" library="openSX70" deviceset="SX70-S-PAD-NEW" device=""/>
+<part name="S2-" library="openSX70" deviceset="SX70-S-PAD-NEW" device=""/>
+<part name="S1-" library="openSX70" deviceset="SX70-S-PAD-NEW" device=""/>
+<part name="S1+" library="openSX70" deviceset="SX70-S-PAD-NEW" device=""/>
+<part name="SOL2+" library="openSX70" deviceset="SX70-S-PAD-NEW" device=""/>
+<part name="SOL2-" library="openSX70" deviceset="SX70-S-PAD-NEW" device=""/>
 <part name="FRAME1" library="frames" library_urn="urn:adsk.eagle:library:229" deviceset="DINA4_L" device=""/>
 <part name="SOL1" library="openSX70" deviceset="SX70-SOLENOID1-2PADS" device=""/>
 <part name="LED1" library="led" library_urn="urn:adsk.eagle:library:259" deviceset="LED" device="CHIPLED_0805" package3d_urn="urn:adsk.eagle:package:15821/1"/>
@@ -15713,7 +15675,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="GND16" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C2" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="C-EU" device="C0603K" package3d_urn="urn:adsk.eagle:package:23680/2" value="100nF"/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
-<part name="J1" library="SparkFun-Connectors" deviceset="6_PIN_SERIAL_TARGET" device=""/>
+<part name="FTDI" library="SparkFun-Connectors" deviceset="6_PIN_SERIAL_TARGET" device="" value="FTDI HEADER"/>
 <part name="Y1" library="SparkFun-Clocks" deviceset="CRYSTAL-16MHZ" device="SMD-5X3.2" value="16MHz"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="C3" library="SparkFun-Capacitors" deviceset="22PF" device="-0603-50V-5%" value="22pF"/>
@@ -15724,7 +15686,7 @@ Source: AVX .. aphvc.pdf</description>
 <part name="R12" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="10K"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="D1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="DIODE" device="SOD-523"/>
-<part name="U3" library="openSX70" deviceset="BH1750FVI-TR" device=""/>
+<part name="BH1750" library="openSX70" deviceset="BH1750FVI-TR" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="GND18" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R13" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="1K"/>
@@ -15755,13 +15717,13 @@ METER</text>
 <text x="172.72" y="160.02" size="2.1844" layer="97" align="center">SOLENOID 2
 (FLASH)</text>
 <text x="43.18" y="124.46" size="2.1844" layer="91">S2</text>
-<text x="129.54" y="7.62" size="2.1844" layer="97" align="center">FTDI
+<text x="129.54" y="5.08" size="2.1844" layer="97" align="center">FTDI
 HEADER</text>
-<text x="78.74" y="5.08" size="2.1844" layer="97" align="center">VOLTAGE
+<text x="78.74" y="2.54" size="2.1844" layer="97" align="center">VOLTAGE
 REGULATOR</text>
-<text x="5.08" y="27.94" size="2.1844" layer="97">BUZZER
+<text x="5.08" y="30.48" size="2.1844" layer="97">BUZZER
 (OPTIONAL)</text>
-<text x="22.86" y="27.94" size="2.1844" layer="97">LED
+<text x="22.86" y="30.48" size="2.1844" layer="97">LED
 (OPTIONAL)</text>
 <text x="2.54" y="60.96" size="2.1844" layer="97">S8 LIMITER RESISTORS TO 3.3V</text>
 <text x="53.34" y="60.96" size="2.1844" layer="97">S9 LIMITER RESISTORS TO 3.3V</text>
@@ -15773,7 +15735,7 @@ SWITCH N-MOSFET</text>
 <text x="27.432" y="163.83" size="2.1844" layer="97" align="center">openSX70 DONGLE
 or
 FLASH</text>
-<text x="246.38" y="2.54" size="2.1844" layer="97" align="center">v 1.1B</text>
+<text x="246.38" y="2.54" size="2.1844" layer="97" align="center">v 1.2B</text>
 <text x="204.978" y="23.368" size="2.54" layer="97" align="center">Schematic for the Arduino-based open-souce openSX70
 Check www.openSX70.com</text>
 <text x="188.976" y="3.556" size="3.81" layer="97">GitHub version </text>
@@ -15781,7 +15743,7 @@ Check www.openSX70.com</text>
 <instances>
 <instance part="U$1" gate="G$1" x="238.76" y="93.98" rot="MR0"/>
 <instance part="U$2" gate="G$1" x="20.32" y="134.62"/>
-<instance part="BUZZ1" gate="G$1" x="10.16" y="10.16" rot="R90"/>
+<instance part="BUZZER" gate="G$1" x="10.16" y="10.16" rot="R90"/>
 <instance part="S2+" gate="G$1" x="40.64" y="132.08" rot="R270"/>
 <instance part="S2-" gate="G$1" x="50.8" y="132.08" rot="R270"/>
 <instance part="S1-" gate="G$1" x="238.76" y="152.4" rot="R270"/>
@@ -15845,7 +15807,10 @@ Check www.openSX70.com</text>
 <attribute name="NAME" x="62.484" y="20.701" size="1.778" layer="95" font="vector"/>
 <attribute name="VALUE" x="54.864" y="20.701" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="J1" gate="G$1" x="129.54" y="20.32" rot="R90"/>
+<instance part="FTDI" gate="G$1" x="129.54" y="20.32" smashed="yes" rot="R90">
+<attribute name="VALUE" x="137.16" y="12.446" size="1.778" layer="96" font="vector" rot="R180"/>
+<attribute name="NAME" x="118.872" y="12.7" size="1.778" layer="95" font="vector" rot="R90"/>
+</instance>
 <instance part="Y1" gate="G$1" x="142.24" y="99.06" smashed="yes" rot="R90">
 <attribute name="NAME" x="142.24" y="104.648" size="1.778" layer="95" font="vector" rot="R180" align="bottom-center"/>
 <attribute name="VALUE" x="143.51" y="93.726" size="1.778" layer="96" font="vector" rot="R180" align="top-center"/>
@@ -15868,22 +15833,22 @@ Check www.openSX70.com</text>
 <attribute name="VALUE" x="139.192" y="124.587" size="1.778" layer="96" font="vector" rot="R180"/>
 </instance>
 <instance part="GND14" gate="1" x="119.38" y="96.52" rot="R270"/>
-<instance part="R12" gate="G$1" x="142.24" y="132.08" smashed="yes" rot="R90">
-<attribute name="NAME" x="140.7414" y="130.302" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="147.574" y="133.35" size="1.778" layer="96" rot="R180"/>
+<instance part="R12" gate="G$1" x="142.24" y="134.62" smashed="yes" rot="R90">
+<attribute name="NAME" x="140.7414" y="132.842" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="147.574" y="135.89" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="SUPPLY6" gate="G$1" x="142.24" y="134.62"/>
+<instance part="SUPPLY6" gate="G$1" x="142.24" y="139.7"/>
 <instance part="D1" gate="G$1" x="203.2" y="149.86"/>
-<instance part="U3" gate="G$1" x="99.06" y="144.78" rot="R90"/>
+<instance part="BH1750" gate="G$1" x="99.06" y="144.78" rot="R90"/>
 <instance part="SUPPLY7" gate="G$1" x="93.98" y="165.1"/>
 <instance part="GND18" gate="1" x="104.14" y="167.64" rot="R180"/>
 <instance part="R13" gate="G$1" x="86.36" y="144.78" rot="R90"/>
 <instance part="GND19" gate="1" x="71.12" y="127"/>
-<instance part="C5" gate="G$1" x="86.36" y="119.38" smashed="yes">
-<attribute name="NAME" x="87.884" y="122.301" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="78.486" y="119.761" size="1.778" layer="96" font="vector"/>
+<instance part="C5" gate="G$1" x="86.36" y="116.84" smashed="yes">
+<attribute name="NAME" x="87.884" y="119.761" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="78.486" y="117.221" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="GND20" gate="1" x="86.36" y="116.84"/>
+<instance part="GND20" gate="1" x="86.36" y="111.76"/>
 <instance part="R14" gate="G$1" x="78.74" y="129.54" rot="R180"/>
 <instance part="R15" gate="G$1" x="104.14" y="116.84" rot="R180"/>
 <instance part="R16" gate="G$1" x="109.22" y="127" rot="R180"/>
@@ -15914,7 +15879,7 @@ Check www.openSX70.com</text>
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
 <wire x1="27.94" y1="20.32" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
-<label x="30.48" y="22.86" size="1.778" layer="95"/>
+<label x="33.02" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S3" class="0">
@@ -15983,6 +15948,11 @@ Check www.openSX70.com</text>
 <wire x1="193.04" y1="88.9" x2="200.66" y2="88.9" width="0.1524" layer="91"/>
 <label x="195.58" y="88.9" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="BUZZER" gate="G$1" pin="+"/>
+<wire x1="7.62" y1="22.86" x2="7.62" y2="25.4" width="0.1524" layer="91"/>
+<label x="5.08" y="25.4" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="S2" class="0">
 <segment>
@@ -16003,7 +15973,7 @@ Check www.openSX70.com</text>
 <label x="195.58" y="104.14" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="TXO"/>
+<pinref part="FTDI" gate="G$1" pin="TXO"/>
 <wire x1="129.54" y1="25.4" x2="129.54" y2="38.1" width="0.1524" layer="91"/>
 <label x="129.54" y="35.56" size="1.778" layer="95"/>
 </segment>
@@ -16015,19 +15985,9 @@ Check www.openSX70.com</text>
 <label x="195.58" y="101.6" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="RXI"/>
+<pinref part="FTDI" gate="G$1" pin="RXI"/>
 <wire x1="132.08" y1="25.4" x2="132.08" y2="33.02" width="0.1524" layer="91"/>
 <label x="132.08" y="30.48" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="U1" gate="U$1" pin="PC6(/RESET)"/>
-<wire x1="144.78" y1="127" x2="142.24" y2="127" width="0.1524" layer="91"/>
-<pinref part="C7" gate="G$1" pin="2"/>
-<pinref part="R12" gate="G$1" pin="1"/>
-<wire x1="142.24" y1="127" x2="139.7" y2="127" width="0.1524" layer="91"/>
-<junction x="142.24" y="127"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -16037,7 +15997,7 @@ Check www.openSX70.com</text>
 <label x="195.58" y="116.84" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="SDA"/>
+<pinref part="BH1750" gate="G$1" pin="SDA"/>
 <wire x1="104.14" y1="129.54" x2="104.14" y2="127" width="0.1524" layer="91"/>
 <label x="104.14" y="121.92" size="1.778" layer="95"/>
 <pinref part="R16" gate="G$1" pin="2"/>
@@ -16067,7 +16027,7 @@ Check www.openSX70.com</text>
 </segment>
 <segment>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
-<pinref part="J1" gate="G$1" pin="VCC"/>
+<pinref part="FTDI" gate="G$1" pin="VCC"/>
 <wire x1="127" y1="38.1" x2="127" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -16077,11 +16037,10 @@ Check www.openSX70.com</text>
 <segment>
 <pinref part="SUPPLY6" gate="G$1" pin="3.3V"/>
 <pinref part="R12" gate="G$1" pin="2"/>
-<wire x1="142.24" y1="137.16" x2="142.24" y2="134.62" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="G$1" pin="3.3V"/>
-<pinref part="U3" gate="G$1" pin="VCC"/>
+<pinref part="BH1750" gate="G$1" pin="VCC"/>
 <wire x1="93.98" y1="165.1" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="93.98" y1="162.56" x2="93.98" y2="160.02" width="0.1524" layer="91"/>
@@ -16090,15 +16049,16 @@ Check www.openSX70.com</text>
 <junction x="93.98" y="162.56"/>
 </segment>
 <segment>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="116.84" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="116.84" x2="116.84" y2="127" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="127" x2="114.3" y2="127" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="127" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
-<junction x="116.84" y="127"/>
 <pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
 <wire x1="116.84" y1="129.54" x2="116.84" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="R15" gate="G$1" pin="1"/>
+<wire x1="109.22" y1="116.84" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="116.84" x2="116.84" y2="127" width="0.1524" layer="91"/>
+<junction x="116.84" y="129.54"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<wire x1="116.84" y1="127" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="127" x2="116.84" y2="127" width="0.1524" layer="91"/>
+<junction x="116.84" y="127"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -16177,7 +16137,7 @@ Check www.openSX70.com</text>
 <pinref part="GND16" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="GND"/>
+<pinref part="FTDI" gate="G$1" pin="GND"/>
 <pinref part="GND1" gate="1" pin="GND"/>
 <wire x1="121.92" y1="25.4" x2="121.92" y2="43.18" width="0.1524" layer="91"/>
 </segment>
@@ -16196,7 +16156,7 @@ Check www.openSX70.com</text>
 </segment>
 <segment>
 <pinref part="GND18" gate="1" pin="GND"/>
-<pinref part="U3" gate="G$1" pin="GND"/>
+<pinref part="BH1750" gate="G$1" pin="GND"/>
 <wire x1="104.14" y1="165.1" x2="104.14" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -16207,7 +16167,11 @@ Check www.openSX70.com</text>
 <segment>
 <pinref part="GND20" gate="1" pin="GND"/>
 <pinref part="C5" gate="G$1" pin="2"/>
-<wire x1="86.36" y1="119.38" x2="86.36" y2="116.84" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="BUZZER" gate="G$1" pin="-"/>
+<wire x1="15.24" y1="22.86" x2="15.24" y2="25.4" width="0.1524" layer="91"/>
+<label x="17.78" y="25.4" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="6V" class="0">
@@ -16331,7 +16295,7 @@ Check www.openSX70.com</text>
 <label x="195.58" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U3" gate="G$1" pin="SCL"/>
+<pinref part="BH1750" gate="G$1" pin="SCL"/>
 <wire x1="99.06" y1="129.54" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
 <label x="93.98" y="111.76" size="1.778" layer="95"/>
 <pinref part="R15" gate="G$1" pin="2"/>
@@ -16380,7 +16344,7 @@ Check www.openSX70.com</text>
 <label x="127" y="127" size="1.6764" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="DTR"/>
+<pinref part="FTDI" gate="G$1" pin="DTR"/>
 <wire x1="134.62" y1="25.4" x2="134.62" y2="27.94" width="0.1524" layer="91"/>
 <label x="134.62" y="25.4" size="1.778" layer="95"/>
 </segment>
@@ -16405,19 +16369,9 @@ Check www.openSX70.com</text>
 <wire x1="58.42" y1="172.72" x2="0" y2="172.72" width="0.1524" layer="91"/>
 </segment>
 </net>
-<net name="N$9" class="0">
-<segment>
-<pinref part="U3" gate="G$1" pin="DVI"/>
-<wire x1="96.52" y1="129.54" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="96.52" y1="124.46" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
-<pinref part="R13" gate="G$1" pin="1"/>
-<pinref part="C5" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="124.46" x2="86.36" y2="139.7" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="U3" gate="G$1" pin="ADDR"/>
+<pinref part="BH1750" gate="G$1" pin="ADDR"/>
 <pinref part="R14" gate="G$1" pin="1"/>
 <wire x1="83.82" y1="129.54" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
 </segment>
@@ -16454,9 +16408,41 @@ Check www.openSX70.com</text>
 <pinref part="R7" gate="G$1" pin="1"/>
 </segment>
 </net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="BH1750" gate="G$1" pin="DVI"/>
+<wire x1="96.52" y1="129.54" x2="96.52" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="C5" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="139.7" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="124.46" x2="86.36" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="124.46" x2="86.36" y2="124.46" width="0.1524" layer="91"/>
+<junction x="86.36" y="124.46"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="C7" gate="G$1" pin="2"/>
+<pinref part="U1" gate="U$1" pin="PC6(/RESET)"/>
+<wire x1="139.7" y1="127" x2="142.24" y2="127" width="0.1524" layer="91"/>
+<pinref part="R12" gate="G$1" pin="1"/>
+<wire x1="142.24" y1="127" x2="144.78" y2="127" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="129.54" x2="142.24" y2="127" width="0.1524" layer="91"/>
+<junction x="142.24" y="127"/>
+</segment>
+</net>
 </nets>
 </sheet>
 </sheets>
+<errors>
+<approved hash="104,1,93.98,160.02,U3,VCC,3.3V,,,"/>
+<approved hash="105,1,5.08,148.59,N$7,,,,,"/>
+<approved hash="105,1,0,167.64,N$8,,,,,"/>
+<approved hash="113,1,19.05,132.525,U$2,,,,,"/>
+<approved hash="113,1,121.816,84.986,FRAME1,,,,,"/>
+<approved hash="113,1,28.2617,16.51,LED1,,,,,"/>
+<approved hash="113,1,203.2,151.105,D1,,,,,"/>
+</errors>
 </schematic>
 </drawing>
 <compatibility>
