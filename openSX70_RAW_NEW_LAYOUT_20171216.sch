@@ -16288,14 +16288,6 @@ Check www.openSX70.com</text>
 <label x="218.44" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MOTOR+" class="0">
-<segment>
-<pinref part="U1" gate="U$1" pin="ADC7"/>
-<wire x1="193.04" y1="109.22" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
-<label x="195.58" y="109.22" size="1.778" layer="95"/>
-<pinref part="R7" gate="G$1" pin="1"/>
-</segment>
-</net>
 <net name="N$2" class="0">
 <segment>
 <pinref part="U3" gate="G$1" pin="DVI"/>
@@ -16333,6 +16325,15 @@ Check www.openSX70.com</text>
 <pinref part="U1" gate="U$1" pin="PB7(XTAL2/TOSC2)"/>
 <wire x1="137.16" y1="83.82" x2="144.78" y2="83.82" width="0.1524" layer="91"/>
 <wire x1="144.78" y1="83.82" x2="144.78" y2="96.52" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="MOTOR+" class="0">
+<segment>
+<pinref part="U1" gate="U$1" pin="PC2(ADC2)"/>
+<wire x1="193.04" y1="121.92" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="R7" gate="G$1" pin="1"/>
+<wire x1="205.74" y1="121.92" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
+<label x="195.58" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
