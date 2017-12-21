@@ -15617,9 +15617,6 @@ Source: AVX .. aphvc.pdf</description>
 <part name="C5" library="SparkFun-Capacitors" deviceset="10UF" device="-0603-6.3V-20%" value="10uF"/>
 <part name="GND20" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="4K7"/>
-<part name="R15" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="4K7"/>
-<part name="R16" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="4K7"/>
-<part name="SUPPLY8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="P+6" library="openSX70" deviceset="VCC" device="" value="6V"/>
 <part name="Y1" library="CSTCE16M0V53-R0" deviceset="CSTCE16M0V53-R0" device=""/>
 </parts>
@@ -15778,9 +15775,6 @@ Check www.openSX70.com</text>
 </instance>
 <instance part="GND20" gate="1" x="86.36" y="111.76"/>
 <instance part="R14" gate="G$1" x="78.74" y="129.54" rot="R180"/>
-<instance part="R15" gate="G$1" x="104.14" y="116.84" rot="R180"/>
-<instance part="R16" gate="G$1" x="109.22" y="127" rot="R180"/>
-<instance part="SUPPLY8" gate="G$1" x="116.84" y="129.54"/>
 <instance part="P+6" gate="VCC" x="208.28" y="149.86" rot="R270"/>
 <instance part="Y1" gate="G$1" x="132.08" y="96.52" smashed="yes" rot="R270">
 <attribute name="NAME" x="126.969" y="100.3068" size="1.781609375" layer="95"/>
@@ -15930,11 +15924,8 @@ Check www.openSX70.com</text>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="SDA"/>
-<wire x1="104.14" y1="129.54" x2="104.14" y2="127" width="0.1524" layer="91"/>
 <label x="104.14" y="121.92" size="1.778" layer="95"/>
-<pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="104.14" y1="127" x2="104.14" y2="124.46" width="0.1524" layer="91"/>
-<junction x="104.14" y="127"/>
+<wire x1="104.14" y1="129.54" x2="104.14" y2="124.46" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -15979,18 +15970,6 @@ Check www.openSX70.com</text>
 <wire x1="86.36" y1="149.86" x2="86.36" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="162.56" x2="93.98" y2="162.56" width="0.1524" layer="91"/>
 <junction x="93.98" y="162.56"/>
-</segment>
-<segment>
-<pinref part="SUPPLY8" gate="G$1" pin="3.3V"/>
-<wire x1="116.84" y1="129.54" x2="116.84" y2="132.08" width="0.1524" layer="91"/>
-<pinref part="R15" gate="G$1" pin="1"/>
-<wire x1="109.22" y1="116.84" x2="116.84" y2="116.84" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="116.84" x2="116.84" y2="127" width="0.1524" layer="91"/>
-<junction x="116.84" y="129.54"/>
-<pinref part="R16" gate="G$1" pin="1"/>
-<wire x1="116.84" y1="127" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="127" x2="116.84" y2="127" width="0.1524" layer="91"/>
-<junction x="116.84" y="127"/>
 </segment>
 </net>
 <net name="GND" class="0">
@@ -16224,11 +16203,8 @@ Check www.openSX70.com</text>
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="SCL"/>
-<wire x1="99.06" y1="129.54" x2="99.06" y2="116.84" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="129.54" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
 <label x="93.98" y="111.76" size="1.778" layer="95"/>
-<pinref part="R15" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="116.84" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
-<junction x="99.06" y="116.84"/>
 </segment>
 </net>
 <net name="MOTOR-HEADER" class="0">
