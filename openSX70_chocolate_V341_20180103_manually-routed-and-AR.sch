@@ -15670,30 +15670,14 @@ REGULATOR</text>
 SWITCH N-MOSFET</text>
 <text x="50.8" y="96.52" size="2.1844" layer="97">SOLENOID 1
 SWITCH N-MOSFET</text>
-<text x="17.78" y="147.32" size="1.778" layer="97">SX70 DISTRIBUTOR</text>
-<text x="27.432" y="163.83" size="2.1844" layer="97" align="center">openSX70 DONGLE
+<text x="17.78" y="147.32" size="1.778" layer="91">SX70 DISTRIBUTOR</text>
+<text x="29.972" y="163.83" size="2.1844" layer="91" align="center">openSX70 DONGLE
 or
 FLASH</text>
-<text x="246.38" y="2.54" size="2.1844" layer="97" align="center">v 3.4</text>
+<text x="246.38" y="2.54" size="2.1844" layer="97" align="center">v 3.4.1</text>
 <text x="203.454" y="24.638" size="2.0066" layer="97" align="center">Creative Commons "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" 
 https://creativecommons.org/licenses/by-nc/4.0/</text>
 <text x="171.196" y="1.016" size="3.81" layer="97">GitHub "chocolate" version</text>
-<polygon width="0.1524" layer="96" spacing="0.254">
-<vertex x="5.08" y="154.94"/>
-<vertex x="5.08" y="162.56"/>
-<vertex x="0" y="162.56"/>
-<vertex x="0" y="172.72"/>
-<vertex x="58.42" y="172.72"/>
-<vertex x="58.42" y="162.56"/>
-<vertex x="53.34" y="162.56"/>
-<vertex x="53.34" y="154.94"/>
-</polygon>
-<polygon width="0.1524" layer="96">
-<vertex x="5.08" y="152.4"/>
-<vertex x="5.08" y="144.78"/>
-<vertex x="53.34" y="144.78"/>
-<vertex x="53.34" y="152.4"/>
-</polygon>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="238.76" y="93.98" rot="MR0"/>
@@ -15705,8 +15689,12 @@ https://creativecommons.org/licenses/by-nc/4.0/</text>
 <instance part="S1+" gate="G$1" x="228.6" y="152.4" rot="R270"/>
 <instance part="SOL2+" gate="G$1" x="180.34" y="147.32" rot="R180"/>
 <instance part="SOL2-" gate="G$1" x="195.58" y="162.56" rot="R270"/>
-<instance part="FRAME1" gate="G$1" x="-10.16" y="-5.08"/>
-<instance part="FRAME1" gate="G$2" x="152.4" y="-5.08"/>
+<instance part="FRAME1" gate="G$1" x="-10.16" y="-5.08" smashed="yes"/>
+<instance part="FRAME1" gate="G$2" x="152.4" y="-5.08" smashed="yes">
+<attribute name="LAST_DATE_TIME" x="165.1" y="-3.81" size="2.54" layer="94"/>
+<attribute name="SHEET" x="238.76" y="-3.81" size="2.54" layer="94"/>
+<attribute name="DRAWING_NAME" x="165.1" y="11.43" size="2.1844" layer="94"/>
+</instance>
 <instance part="SOL1" gate="G$1" x="220.98" y="45.72" rot="R180"/>
 <instance part="LED1" gate="G$1" x="27.94" y="17.78"/>
 <instance part="U1" gate="U$1" x="170.18" y="96.52"/>
@@ -16329,6 +16317,26 @@ https://creativecommons.org/licenses/by-nc/4.0/</text>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="205.74" y1="121.92" x2="205.74" y2="109.22" width="0.1524" layer="91"/>
 <label x="195.58" y="121.92" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<wire x1="5.08" y1="172.72" x2="5.08" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="160.02" x2="20.32" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="160.02" x2="20.32" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="154.94" x2="40.64" y2="154.94" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="154.94" x2="40.64" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="160.02" x2="53.34" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="160.02" x2="53.34" y2="172.72" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="172.72" x2="5.08" y2="172.72" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$26" class="0">
+<segment>
+<wire x1="5.08" y1="152.4" x2="53.34" y2="152.4" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="152.4" x2="53.34" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="53.34" y1="144.78" x2="5.08" y2="144.78" width="0.1524" layer="91"/>
+<wire x1="5.08" y1="144.78" x2="5.08" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
