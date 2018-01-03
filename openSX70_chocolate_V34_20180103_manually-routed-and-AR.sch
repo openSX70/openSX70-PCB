@@ -15643,10 +15643,10 @@ SWITCH N-MOSFET</text>
 <text x="27.432" y="163.83" size="2.1844" layer="97" align="center">openSX70 DONGLE
 or
 FLASH</text>
-<text x="246.38" y="2.54" size="2.1844" layer="97" align="center">v 1.1B</text>
-<text x="204.978" y="23.368" size="2.54" layer="97" align="center">Schematic for the Arduino-based open-souce openSX70
-Check www.openSX70.com</text>
-<text x="188.976" y="3.556" size="3.81" layer="97">GitHub version </text>
+<text x="246.38" y="2.54" size="2.1844" layer="97" align="center">v 3.4</text>
+<text x="203.454" y="24.638" size="2.0066" layer="97" align="center">Creative Commons "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" 
+https://creativecommons.org/licenses/by-nc/4.0/</text>
+<text x="171.196" y="1.016" size="3.81" layer="97">GitHub "chocolate" version</text>
 <polygon width="0.1524" layer="96" spacing="0.254">
 <vertex x="5.08" y="154.94"/>
 <vertex x="5.08" y="162.56"/>
