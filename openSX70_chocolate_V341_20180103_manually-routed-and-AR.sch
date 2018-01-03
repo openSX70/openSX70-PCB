@@ -15636,7 +15636,7 @@ Source: Comchip CGRM4001-G.pdf</description>
 <part name="R14" library="resistor" library_urn="urn:adsk.eagle:library:348" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:26057/1" value="4K7"/>
 <part name="P+6" library="openSX70" deviceset="VCC" device="" value="6V"/>
 <part name="Y1" library="CSTCE16M0V53-R0" deviceset="CSTCE16M0V53-R0" device=""/>
-<part name="D2" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="1" value="1N4148W"/>
+<part name="D1" library="diode" library_urn="urn:adsk.eagle:library:210" deviceset="CGRM400*-G" device="" package3d_urn="urn:adsk.eagle:package:43457/2" technology="1" value="1N4148W"/>
 </parts>
 <sheets>
 <sheet>
@@ -15797,7 +15797,7 @@ https://creativecommons.org/licenses/by-nc/4.0/</text>
 <attribute name="NAME" x="126.969" y="100.3068" size="1.781609375" layer="95"/>
 <attribute name="VALUE" x="129.5811" y="92.7477" size="1.782790625" layer="96" rot="R180"/>
 </instance>
-<instance part="D2" gate="G$1" x="200.66" y="149.86"/>
+<instance part="D1" gate="G$1" x="200.66" y="149.86"/>
 </instances>
 <busses>
 </busses>
@@ -16128,7 +16128,7 @@ https://creativecommons.org/licenses/by-nc/4.0/</text>
 <wire x1="170.18" y1="147.32" x2="172.72" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="C"/>
+<pinref part="D1" gate="G$1" pin="C"/>
 <pinref part="P+6" gate="VCC" pin="6V"/>
 <wire x1="203.2" y1="149.86" x2="210.82" y2="149.86" width="0.1524" layer="91"/>
 </segment>
@@ -16206,7 +16206,7 @@ https://creativecommons.org/licenses/by-nc/4.0/</text>
 <wire x1="195.58" y1="149.86" x2="195.58" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="198.12" y1="149.86" x2="195.58" y2="149.86" width="0.1524" layer="91"/>
 <junction x="195.58" y="149.86"/>
-<pinref part="D2" gate="G$1" pin="A"/>
+<pinref part="D1" gate="G$1" pin="A"/>
 </segment>
 <segment>
 <pinref part="Q2" gate="NMOS" pin="D"/>
