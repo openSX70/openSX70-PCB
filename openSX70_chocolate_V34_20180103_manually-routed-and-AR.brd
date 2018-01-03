@@ -776,12 +776,14 @@ METER</text>
 <text x="17.4625" y="7.3025" size="0.8128" layer="26" font="vector" ratio="20" rot="MR0">GND</text>
 <text x="11.90625" y="8.09625" size="0.8128" layer="26" font="vector" ratio="20" rot="MR0">B+</text>
 <text x="14.9225" y="2.54" size="0.8128" layer="26" font="vector" ratio="20" rot="MR0">DUMMY</text>
-<text x="38.32225" y="6.63575" size="0.8128" layer="21" font="vector" ratio="20">N/C</text>
+<text x="38.25875" y="6.731" size="0.8128" layer="21" font="vector" ratio="20">N/C</text>
 <text x="79.1845" y="24.16175" size="0.8128" layer="21" font="vector" ratio="20">SOL2-</text>
 <text x="52.5145" y="24.41575" size="1.27" layer="22" font="vector" ratio="15" rot="MR212">"chocolate"</text>
 <text x="35.8775" y="25.87625" size="1.9304" layer="21" font="vector" ratio="15">www.openSX70.com</text>
 <text x="59.6265" y="25.74925" size="1.9304" layer="22" font="vector" ratio="15" rot="MR0">www.openSX70.com</text>
 <text x="41.2115" y="23.33625" size="1.27" layer="22" font="vector" ratio="15" rot="MR328">layout 3.4</text>
+<text x="58.547" y="9.779" size="1.27" layer="1" font="vector" ratio="15">top</text>
+<text x="35.433" y="10.16" size="1.27" layer="16" font="vector" ratio="15" rot="MR0">bottom</text>
 </plain>
 <libraries>
 <library name="SparkFun-Capacitors">
