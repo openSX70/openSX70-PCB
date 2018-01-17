@@ -15765,14 +15765,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="D2" library="zetex" library_urn="urn:adsk.eagle:library:418" deviceset="D" device="SOD323" package3d_urn="urn:adsk.eagle:package:30992/1" value="1N4148WSF"/>
 <part name="JP1" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" value="FTDI VCC SELECTOR"/>
 <part name="P+7" library="openSX70" deviceset="VCC" device="" value="6V"/>
+<part name="D1" library="zetex" library_urn="urn:adsk.eagle:library:418" deviceset="D" device="SOD323" package3d_urn="urn:adsk.eagle:package:30992/1" value="1N4148WSF"/>
+<part name="P+8" library="openSX70" deviceset="VCC" device="" value="6V"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 <text x="35.56" y="111.76" size="1.6764" layer="91">1-WIRE</text>
-<text x="198.12" y="48.26" size="1.6764" layer="97" rot="R180">(DIODE IN
-SOLENOID)
-</text>
 <text x="15.24" y="137.16" size="2.1844" layer="91">FFA</text>
 <text x="76.2" y="139.7" size="2.1844" layer="97" align="center">LIGHT
 METER</text>
@@ -15927,6 +15926,11 @@ NOT BOTH AT ONCE
 <attribute name="VALUE" x="152.4" y="58.801" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
 <instance part="P+7" gate="VCC" x="137.16" y="53.34" rot="R270"/>
+<instance part="D1" gate="G$1" x="195.58" y="50.8" smashed="yes" rot="R180">
+<attribute name="NAME" x="195.58" y="47.625" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="190.5" y="53.975" size="1.778" layer="96"/>
+</instance>
+<instance part="P+8" gate="VCC" x="182.88" y="50.8" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -16266,6 +16270,11 @@ NOT BOTH AT ONCE
 <pinref part="P+7" gate="VCC" pin="6V"/>
 <wire x1="134.62" y1="53.34" x2="132.08" y2="53.34" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="P+8" gate="VCC" pin="6V"/>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="185.42" y1="50.8" x2="193.04" y2="50.8" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="SOL1-" class="0">
 <segment>
@@ -16275,8 +16284,11 @@ NOT BOTH AT ONCE
 </segment>
 <segment>
 <pinref part="SOL1" gate="G$1" pin="-"/>
-<wire x1="208.28" y1="50.8" x2="200.66" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="50.8" x2="203.2" y2="50.8" width="0.1524" layer="91"/>
 <label x="200.66" y="48.26" size="1.778" layer="95"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="203.2" y1="50.8" x2="200.66" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="50.8" x2="200.66" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
