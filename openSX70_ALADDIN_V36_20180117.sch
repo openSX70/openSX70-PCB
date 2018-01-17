@@ -15816,6 +15816,7 @@ https://creativecommons.org/licenses/by-nc/4.0/</text>
 ONLY 6V OR 3.3V
 NOT BOTH AT ONCE
 </text>
+<text x="63.5" y="40.64" size="2.1844" layer="97" align="center">TP</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="238.76" y="93.98" rot="MR0"/>
