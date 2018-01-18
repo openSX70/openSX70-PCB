@@ -16714,6 +16714,8 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="TP15" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1" value="PTR1TP08R"/>
 <part name="TP16" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1" value="PTR1TP08R"/>
 <part name="TP17" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1" value="PTR1TP08R"/>
+<part name="TP-SDA" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1" value="PTR1TP08R"/>
+<part name="TP-SCL" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1" value="PTR1TP08R"/>
 </parts>
 <sheets>
 <sheet>
@@ -16903,6 +16905,14 @@ NOT BOTH AT ONCE
 <attribute name="NAME" x="220.98" y="69.342" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="210.82" y="69.85" size="1.778" layer="97" rot="R90"/>
 </instance>
+<instance part="TP-SDA" gate="G$1" x="104.14" y="116.84" smashed="yes">
+<attribute name="NAME" x="105.156" y="99.06" size="1.778" layer="95" rot="R90"/>
+<attribute name="TP_SIGNAL_NAME" x="105.41" y="114.3" size="1.778" layer="97"/>
+</instance>
+<instance part="TP-SCL" gate="G$1" x="99.06" y="111.76" smashed="yes">
+<attribute name="NAME" x="100.076" y="96.52" size="1.778" layer="95" rot="R90"/>
+<attribute name="TP_SIGNAL_NAME" x="100.33" y="109.22" size="1.778" layer="97"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -17052,7 +17062,8 @@ NOT BOTH AT ONCE
 <segment>
 <pinref part="U3" gate="G$1" pin="SDA"/>
 <label x="104.14" y="121.92" size="1.778" layer="95"/>
-<wire x1="104.14" y1="129.54" x2="104.14" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="TP-SDA" gate="G$1" pin="TP"/>
+<wire x1="104.14" y1="119.38" x2="104.14" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="3.3V" class="0">
@@ -17358,8 +17369,9 @@ NOT BOTH AT ONCE
 </segment>
 <segment>
 <pinref part="U3" gate="G$1" pin="SCL"/>
-<wire x1="99.06" y1="129.54" x2="99.06" y2="111.76" width="0.1524" layer="91"/>
+<wire x1="99.06" y1="129.54" x2="99.06" y2="114.3" width="0.1524" layer="91"/>
 <label x="93.98" y="111.76" size="1.778" layer="95"/>
+<pinref part="TP-SCL" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="MOTOR-HEADER" class="0">
