@@ -23,17 +23,17 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -47,11 +47,11 @@
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
 <layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
-<layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
+<layer number="44" name="Drills" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
@@ -59,7 +59,7 @@
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="9" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="1" fill="9" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -751,9 +751,9 @@ https://creativecommons.org/licenses/by-nc/4.0/</text>
 <text x="88.4555" y="15.90675" size="0.8128" layer="21" font="vector" ratio="20">S8</text>
 <text x="75.72375" y="5.334" size="0.8128" layer="21" font="vector" ratio="20">SOL1+</text>
 <text x="81.4705" y="6.63575" size="0.8128" layer="21" font="vector" ratio="20">SOL1-</text>
-<text x="81.0895" y="22.00275" size="0.8128" layer="21" font="vector" ratio="20">SOL2+</text>
-<text x="91.21775" y="20.32" size="0.8128" layer="21" font="vector" ratio="20">S1+</text>
-<text x="94.26575" y="18.95475" size="0.8128" layer="21" font="vector" ratio="20">S1-</text>
+<text x="80.7085" y="22.00275" size="0.8128" layer="21" font="vector" ratio="20">SOL2+</text>
+<text x="90.07475" y="19.177" size="0.8128" layer="21" font="vector" ratio="20">S1+</text>
+<text x="95.28175" y="19.08175" size="0.8128" layer="21" font="vector" ratio="20">S1-</text>
 <text x="67.53225" y="24.35225" size="0.8128" layer="21" font="vector" ratio="20">S2+</text>
 <text x="70.77075" y="24.3205" size="0.8128" layer="21" font="vector" ratio="20">S2-</text>
 <text x="43.33875" y="4.60375" size="0.8128" layer="21" font="vector" ratio="15">FTDI HEADER</text>
@@ -815,7 +815,7 @@ by Joaquín de Prada</text>
 <wire x1="59.944" y1="8.89" x2="59.944" y2="5.207" width="0.1524" layer="21"/>
 <wire x1="59.944" y1="5.207" x2="55.88" y2="5.207" width="0.1524" layer="21"/>
 <wire x1="55.88" y1="5.207" x2="55.88" y2="8.89" width="0.1524" layer="21"/>
-<text x="40.4495" y="24.41575" size="1.27" layer="21" font="vector" ratio="15" rot="R212">"aladdin"</text>
+<text x="40.9575" y="24.28875" size="1.27" layer="21" font="vector" ratio="15" rot="R212">"aladdin"</text>
 <wire x1="12.065" y1="17.907" x2="14.097" y2="17.907" width="0.1524" layer="21"/>
 <wire x1="14.097" y1="17.907" x2="14.351" y2="17.653" width="0.1524" layer="21"/>
 <wire x1="14.351" y1="17.653" x2="14.351" y2="16.891" width="0.1524" layer="21"/>
@@ -5021,27 +5021,27 @@ design rules under a new name.</description>
 <element name="TP-3.3V" library="openSX70" package="SX70-S-PAD2" value="SX70-S-PAD-NEW" x="14.351" y="4.064" rot="R90"/>
 <element name="TP-GND" library="openSX70" package="SX70-S-PAD2" value="SX70-S-PAD-NEW" x="12.192" y="4.064" rot="R90"/>
 <element name="TP15" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1" value="PTR1TP08R" x="85.725" y="11.684" smashed="yes">
-<attribute name="NAME" x="85.1979" y="9.86" size="0.6096" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="86.0869" y="8.844" size="0.7112" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="85.725" y="9.779" size="1" layer="37"/>
 <attribute name="VALUE" x="85.344" y="11.303" size="0.0254" layer="27"/>
 </element>
 <element name="TP16" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1" value="PTR1TP08R" x="87.249" y="12.954" smashed="yes">
-<attribute name="NAME" x="86.9759" y="10.622" size="0.6096" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="87.6109" y="9.987" size="0.7112" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="87.249" y="11.049" size="1" layer="37"/>
 <attribute name="VALUE" x="86.868" y="12.573" size="0.0254" layer="27"/>
 </element>
 <element name="TP17" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1" value="PTR1TP08R" x="87.503" y="18.923" smashed="yes">
-<attribute name="NAME" x="86.7219" y="18.877" size="0.6096" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="87.8649" y="16.083" size="0.7112" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="87.503" y="17.018" size="1" layer="37"/>
 <attribute name="VALUE" x="87.122" y="18.542" size="0.0254" layer="27"/>
 </element>
 <element name="TP-SDA" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1" value="PTR1TP08R" x="12.446" y="17.272" smashed="yes">
-<attribute name="NAME" x="10.8141" y="18.334" size="0.6096" layer="25" font="vector" ratio="12" rot="R270"/>
+<attribute name="NAME" x="11.9571" y="22.017" size="0.7112" layer="25" font="vector" ratio="12" rot="R270"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="12.446" y="15.367" size="1" layer="37"/>
 <attribute name="VALUE" x="12.065" y="16.891" size="0.0254" layer="27"/>
 </element>
 <element name="TP-SCL" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1" value="PTR1TP08R" x="13.716" y="17.272" smashed="yes">
-<attribute name="NAME" x="15.4749" y="15.321" size="0.6096" layer="25" font="vector" ratio="12" rot="R90"/>
+<attribute name="NAME" x="14.0779" y="18.369" size="0.7112" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="13.716" y="15.367" size="1" layer="37"/>
 <attribute name="VALUE" x="13.335" y="16.891" size="0.0254" layer="27"/>
 </element>
@@ -5622,6 +5622,7 @@ design rules under a new name.</description>
 <via x="12.954" y="15.621" extent="1-16" drill="0.35"/>
 <contactref element="TP-GND" pad="P$1"/>
 <via x="61.69025" y="4.73075" extent="1-16" drill="0.35"/>
+<via x="96.393" y="17.272" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="6V">
 <contactref element="U$1" pad="VCC-6V"/>
@@ -7016,20 +7017,12 @@ design rules under a new name.</description>
 <approved hash="1,20,7d4b5d5f5cac7cb8"/>
 <approved hash="1,20,bf0f1c3b1c89bfbd"/>
 <approved hash="3,16,c0f1fc8dfc8dc171"/>
-<approved hash="3,16,3890872c84ec3910"/>
 <approved hash="1,20,78088c7c8d6d7919"/>
-<approved hash="3,16,6e9d2e92536e54a0"/>
-<approved hash="1,20,dbc43d303a13dce7"/>
-<approved hash="3,16,6df36dfc11c111cf"/>
 <approved hash="1,20,f944bd30ba10fe64"/>
 <approved hash="3,16,898288c5f3b8b3be"/>
 <approved hash="3,16,968f9689ad35acb3"/>
 <approved hash="3,16,08a60961769c369a"/>
-<approved hash="3,16,f3470f7a0f797346"/>
-<approved hash="3,16,e0509cec9cace0d0"/>
-<approved hash="3,16,b65376538b2f8861"/>
 <approved hash="1,20,decd1f391e4cdfb8"/>
-<approved hash="3,16,26d766d61baa1aea"/>
 <approved hash="3,16,90662d9a6d9a1066"/>
 <approved hash="1,20,1608bd3cba8c11b8"/>
 <approved hash="1,20,6688f07cf00266f6"/>
@@ -7052,6 +7045,14 @@ design rules under a new name.</description>
 <approved hash="3,1,1200f58c239cc410"/>
 <approved hash="3,16,ad8a3b4ced737bb5"/>
 <approved hash="3,1,8cfbd34bd3f98c49"/>
+<approved hash="3,16,3890872c84ec3910"/>
+<approved hash="3,16,6e9d2e92536e54a0"/>
+<approved hash="1,20,dbc43d303a13dce7"/>
+<approved hash="3,16,6df36dfc11c111cf"/>
+<approved hash="3,16,f3470f7a0f797346"/>
+<approved hash="3,16,e0509cec9cace0d0"/>
+<approved hash="3,16,b65376538b2f8861"/>
+<approved hash="3,16,26d766d61baa1aea"/>
 <approved hash="3,16,bb3bbcfbd140ca4d"/>
 <approved hash="3,16,3609760a0ab60df6"/>
 <approved hash="3,16,5f1f5f5f23212323"/>
@@ -7196,8 +7197,8 @@ design rules under a new name.</description>
 <approved hash="19,1,71a9ca39e3ba57f3"/>
 <approved hash="4,1,0fd601936dc5db88"/>
 <approved hash="4,1,0281a7c47fc21ac8"/>
-<approved hash="20,1,b646b50056fc562c"/>
 <approved hash="4,1,87604411123eefef"/>
+<approved hash="20,1,b646b50056fc562c"/>
 <approved hash="20,1,08292867abc2996c"/>
 <approved hash="20,1,54efc8b989b38ce7"/>
 <approved hash="20,1,104a0d4a10750d75"/>
@@ -7214,13 +7215,9 @@ design rules under a new name.</description>
 <approved hash="4,1,fd87011120f6248d"/>
 <approved hash="4,1,d09d30503c27b835"/>
 <approved hash="4,1,946d7c7dc07889c1"/>
-<approved hash="19,16,cb5e11b0e3566150"/>
 <approved hash="19,16,ccadba93f77a5f6a"/>
 <approved hash="5,16,3f8795b90a0d0c77"/>
 <approved hash="5,16,c72b2672c272e1a2"/>
-<approved hash="19,16,9e3439ed655267ee"/>
-<approved hash="19,16,f94f922458d1b026"/>
-<approved hash="19,16,a59ff9d8490763ef"/>
 <approved hash="19,16,e48549ce01ce6b2c"/>
 <approved hash="19,16,716e65d9f9a77be5"/>
 <approved hash="19,16,927cd7bddc7a2bf8"/>
@@ -7230,18 +7227,22 @@ design rules under a new name.</description>
 <approved hash="5,16,dba845f36412e6df"/>
 <approved hash="19,16,b4a1a59f1663f780"/>
 <approved hash="19,16,815424fe29c7ea2d"/>
+<approved hash="5,16,b0da3924688c2c11"/>
+<approved hash="5,16,16058b3ff429b003"/>
+<approved hash="19,16,9e3439ed655267ee"/>
+<approved hash="19,16,f94f922458d1b026"/>
+<approved hash="19,16,a59ff9d8490763ef"/>
+<approved hash="19,16,cb5e11b0e3566150"/>
 <approved hash="5,16,03d628d5b0a9e208"/>
-<approved hash="19,16,daf10905fda092f5"/>
-<approved hash="19,16,dfdf209249d8217f"/>
 <approved hash="5,16,4b1b58474f8192bc"/>
+<approved hash="19,16,daf10905fda092f5"/>
 <approved hash="19,16,50702f7484e09d8e"/>
+<approved hash="20,16,08292867abc2996c"/>
+<approved hash="20,16,b7838e938f1c8e5d"/>
+<approved hash="19,16,dfdf209249d8217f"/>
 <approved hash="19,16,c298c6715c366299"/>
 <approved hash="19,16,4f34f71e3108af6d"/>
 <approved hash="5,16,18a990771c9e89e4"/>
-<approved hash="5,16,b0da3924688c2c11"/>
-<approved hash="5,16,16058b3ff429b003"/>
-<approved hash="20,16,08292867abc2996c"/>
-<approved hash="20,16,b7838e938f1c8e5d"/>
 <approved hash="19,16,4640f22aebb57e45"/>
 <approved hash="19,16,2aeaee960894565b"/>
 <approved hash="5,16,18c41a4789705865"/>
@@ -7253,6 +7254,7 @@ design rules under a new name.</description>
 <approved hash="20,16,7761f7a66dcc2111"/>
 <approved hash="3,16,f275b276ce8aca48"/>
 <approved hash="1,20,b7483c7c3fccb4f8"/>
+<approved hash="1,20,0101fbf5fa1600e2"/>
 <approved hash="1,20,1fe89b9c9bed1f99"/>
 <approved hash="1,20,d8087c7c7ccfd8bb"/>
 </errors>
