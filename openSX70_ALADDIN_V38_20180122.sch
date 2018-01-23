@@ -13370,7 +13370,7 @@ SWITCH N-MOSFET</text>
 <text x="29.972" y="163.83" size="2.1844" layer="91" align="center">openSX70 DONGLE
 or
 FLASH</text>
-<text x="246.38" y="2.54" size="2.1844" layer="97" align="center">v 3.6</text>
+<text x="246.38" y="2.54" size="2.1844" layer="97" align="center">v 3.8</text>
 <text x="203.454" y="24.638" size="2.0066" layer="97" align="center">Design by Joaquín de Prada
 Creative Commons "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" 
 https://creativecommons.org/licenses/by-nc/4.0/</text>
