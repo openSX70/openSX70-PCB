@@ -795,14 +795,14 @@ by Joaquín de Prada</text>
 <text x="13.208" y="1.4605" size="0.8128" layer="21" font="vector" ratio="20">3.3V</text>
 <text x="12.60475" y="2.286" size="0.8128" layer="21" font="vector" ratio="20" rot="R180">GND</text>
 <text x="16.002" y="1.4605" size="0.8128" layer="21" font="vector" ratio="20">6V</text>
-<wire x1="11.557" y1="5.715" x2="17.018" y2="5.715" width="0.254" layer="21"/>
+<wire x1="11.176" y1="5.715" x2="17.018" y2="5.715" width="0.254" layer="21"/>
 <wire x1="17.018" y1="5.715" x2="17.399" y2="5.334" width="0.254" layer="21"/>
 <wire x1="17.399" y1="5.334" x2="17.399" y2="2.921" width="0.254" layer="21"/>
 <wire x1="17.399" y1="2.921" x2="17.018" y2="2.54" width="0.254" layer="21"/>
-<wire x1="17.018" y1="2.54" x2="11.557" y2="2.54" width="0.254" layer="21"/>
-<wire x1="11.557" y1="2.54" x2="11.176" y2="2.921" width="0.254" layer="21"/>
-<wire x1="11.176" y1="2.921" x2="11.176" y2="5.334" width="0.254" layer="21"/>
-<wire x1="11.176" y1="5.334" x2="11.557" y2="5.715" width="0.254" layer="21"/>
+<wire x1="17.018" y1="2.54" x2="11.176" y2="2.54" width="0.254" layer="21"/>
+<wire x1="11.176" y1="2.54" x2="10.668" y2="2.921" width="0.254" layer="21"/>
+<wire x1="10.668" y1="2.921" x2="10.668" y2="5.334" width="0.254" layer="21"/>
+<wire x1="10.668" y1="5.334" x2="11.176" y2="5.715" width="0.254" layer="21"/>
 <text x="15.621" y="6.1595" size="0.8128" layer="21" font="vector" ratio="20">TP</text>
 <wire x1="32.004" y1="10.414" x2="33.274" y2="10.414" width="0.254" layer="21"/>
 <wire x1="33.274" y1="10.414" x2="36.322" y2="8.128" width="0.254" layer="21"/>
@@ -3954,7 +3954,6 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="73.903" y="24.992" size="0.8128" layer="27" font="vector"/>
 </element>
 <element name="JP1" library="SparkFun-Jumpers" package="SMT-JUMPER_3_1-NC_TRACE_SILK" value="FTDI VCC SELECTOR" x="30.226" y="10.414" smashed="yes">
-<attribute name="NAME" x="30.226" y="11.557" size="0.8128" layer="25" font="vector" ratio="20" align="bottom-center"/>
 <attribute name="VALUE" x="30.226" y="9.271" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="D1" library="zetex" library_urn="urn:adsk.eagle:library:418" package="SOD323" package3d_urn="urn:adsk.eagle:package:30992/1" value="1N4148WSF" x="82.423" y="7.239" smashed="yes">
@@ -3965,9 +3964,15 @@ design rules under a new name.</description>
 <attribute name="OC_NEWARK" value="79R6078" x="82.423" y="7.239" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="81.523" y="5.434" size="1.016" layer="27"/>
 </element>
-<element name="TP-6V" library="openSX70" package="SX70-S-PAD2" value="SX70-S-PAD-NEW" x="16.51" y="4.064" rot="R90"/>
-<element name="TP-3.3V" library="openSX70" package="SX70-S-PAD2" value="SX70-S-PAD-NEW" x="14.351" y="4.064" rot="R90"/>
-<element name="TP-GND" library="openSX70" package="SX70-S-PAD2" value="SX70-S-PAD-NEW" x="12.192" y="4.064" rot="R90"/>
+<element name="TP-6V" library="openSX70" package="SX70-S-PAD2" value="SX70-S-PAD-NEW" x="16.51" y="4.064" smashed="yes" rot="R90">
+<attribute name="NAME" x="15.748" y="3.429" size="0.3048" layer="21" ratio="4" rot="R90"/>
+</element>
+<element name="TP-3.3V" library="openSX70" package="SX70-S-PAD2" value="SX70-S-PAD-NEW" x="14.351" y="4.064" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.589" y="3.302" size="0.3048" layer="21" ratio="4" rot="R90"/>
+</element>
+<element name="TP-GND" library="openSX70" package="SX70-S-PAD2" value="SX70-S-PAD-NEW" x="12.192" y="4.064" smashed="yes" rot="R90">
+<attribute name="NAME" x="11.049" y="4.826" size="0.3048" layer="21" ratio="4" rot="R270"/>
+</element>
 <element name="MOSI" library="testpad" library_urn="urn:adsk.eagle:library:385" package="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1" value="PTR1TP08R" x="86.614" y="13.208" smashed="yes">
 <attribute name="NAME" x="86.4679" y="10.622" size="0.7112" layer="25" font="vector" ratio="12" rot="R90"/>
 <attribute name="TP_SIGNAL_NAME" value="" x="86.614" y="11.303" size="1" layer="37"/>
