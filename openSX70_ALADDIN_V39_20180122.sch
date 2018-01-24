@@ -13297,11 +13297,11 @@ SWITCH N-MOSFET</text>
 <text x="29.972" y="163.83" size="2.1844" layer="91" align="center">openSX70 DONGLE
 or
 FLASH</text>
-<text x="246.38" y="2.54" size="2.1844" layer="97" align="center">v 3.6</text>
+<text x="246.38" y="2.54" size="2.1844" layer="97" align="center">v 3.9</text>
 <text x="203.454" y="24.638" size="2.0066" layer="97" align="center">Design by Joaquín de Prada
 Creative Commons "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" 
 https://creativecommons.org/licenses/by-nc/4.0/</text>
-<text x="171.196" y="1.016" size="3.81" layer="97">GitHub "aladdin" version</text>
+<text x="171.196" y="1.016" size="3.81" layer="97">GitHub "aladdin-fpc" version</text>
 <text x="132.08" y="43.18" size="1.6764" layer="97">DEFAULT 6V
 ONLY 6V OR 3.3V
 NOT BOTH AT ONCE
