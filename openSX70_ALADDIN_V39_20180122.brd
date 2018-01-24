@@ -756,7 +756,7 @@ https://creativecommons.org/licenses/by-nc/4.0/</text>
 <text x="96.99625" y="19.84375" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">S1-</text>
 <text x="66.19875" y="25.62225" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">S2+</text>
 <text x="70.1675" y="25.55875" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">S2-</text>
-<text x="8.79475" y="26.57475" size="0.8128" layer="21" font="vector" ratio="15">FTDI HEADER</text>
+<text x="13.87475" y="23.01875" size="0.8128" layer="21" font="vector" ratio="15">FTDI</text>
 <text x="17.526" y="23.8125" size="0.8128" layer="21" font="vector" ratio="20" rot="R270">F+</text>
 <text x="20.701" y="23.622" size="0.8128" layer="21" font="vector" ratio="20" rot="R270">FF</text>
 <text x="24.638" y="23.9395" size="0.8128" layer="21" font="vector" ratio="20" rot="R270">F-</text>
