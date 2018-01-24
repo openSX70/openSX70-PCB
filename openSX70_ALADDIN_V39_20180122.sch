@@ -13257,8 +13257,8 @@ Source : http://www.omron.com/ecb/products/pdf/fpc.pdf</description>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="P+9" library="openSX70" deviceset="VCC" device="" value="6V"/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="MISO" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1" value="PTR1TP08R"/>
 <part name="MOSI" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1" value="PTR1TP08R"/>
+<part name="MISO" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1" value="PTR1TP08R"/>
 <part name="SCK" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1" value="PTR1TP08R"/>
 <part name="SDA" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1" value="PTR1TP08R"/>
 <part name="SCL" library="testpad" library_urn="urn:adsk.eagle:library:385" deviceset="PTR1" device="TP08R" package3d_urn="urn:adsk.eagle:package:27956/1" value="PTR1TP08R"/>
@@ -13301,7 +13301,7 @@ FLASH</text>
 <text x="203.454" y="24.638" size="2.0066" layer="97" align="center">Design by Joaquín de Prada
 Creative Commons "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" 
 https://creativecommons.org/licenses/by-nc/4.0/</text>
-<text x="171.196" y="1.016" size="3.81" layer="97">GitHub "aladdin" version</text>
+<text x="171.196" y="1.016" size="3.81" layer="97">GitHub "aladdin-fpc" version</text>
 <text x="132.08" y="43.18" size="1.6764" layer="97">DEFAULT 6V
 ONLY 6V OR 3.3V
 NOT BOTH AT ONCE
@@ -13436,11 +13436,11 @@ NOT BOTH AT ONCE
 <instance part="GND4" gate="1" x="71.12" y="45.72" smashed="yes" rot="R270">
 <attribute name="VALUE" x="70.866" y="45.72" size="1.778" layer="96" rot="R270" align="top-center"/>
 </instance>
-<instance part="MISO" gate="G$1" x="208.28" y="73.66" smashed="yes" rot="R90">
+<instance part="MOSI" gate="G$1" x="208.28" y="73.66" smashed="yes" rot="R90">
 <attribute name="NAME" x="220.98" y="74.676" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="210.82" y="74.93" size="1.778" layer="97" rot="R90"/>
 </instance>
-<instance part="MOSI" gate="G$1" x="208.28" y="71.12" smashed="yes" rot="R90">
+<instance part="MISO" gate="G$1" x="208.28" y="71.12" smashed="yes" rot="R90">
 <attribute name="NAME" x="220.98" y="71.882" size="1.778" layer="95" rot="R180"/>
 <attribute name="TP_SIGNAL_NAME" x="210.82" y="72.39" size="1.778" layer="97" rot="R90"/>
 </instance>
@@ -13483,7 +13483,7 @@ NOT BOTH AT ONCE
 <pinref part="U1" gate="U$1" pin="PB4(MISO)"/>
 <wire x1="193.04" y1="71.12" x2="205.74" y2="71.12" width="0.1524" layer="91"/>
 <label x="195.58" y="71.12" size="1.778" layer="95"/>
-<pinref part="MOSI" gate="G$1" pin="TP"/>
+<pinref part="MISO" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="S1+" gate="G$1" pin="S"/>
@@ -13533,7 +13533,7 @@ NOT BOTH AT ONCE
 <pinref part="U1" gate="U$1" pin="PB3(MOSI/OC2)"/>
 <wire x1="193.04" y1="73.66" x2="205.74" y2="73.66" width="0.1524" layer="91"/>
 <label x="195.58" y="73.66" size="1.778" layer="95"/>
-<pinref part="MISO" gate="G$1" pin="TP"/>
+<pinref part="MOSI" gate="G$1" pin="TP"/>
 </segment>
 <segment>
 <pinref part="R3" gate="G$1" pin="1"/>
