@@ -774,11 +774,11 @@ https://creativecommons.org/licenses/by-nc/4.0/</text>
 <text x="25.7175" y="18.7325" size="0.8128" layer="22" font="vector" ratio="20" rot="MR0">LIGHT
 METER</text>
 <text x="15.08125" y="4.92125" size="0.8128" layer="22" font="vector" ratio="20" rot="MR0">BUZZER</text>
-<text x="10.7315" y="25.019" size="0.6096" layer="21" font="vector" ratio="20" rot="R90">DTR</text>
-<text x="11.46175" y="24.9555" size="0.6096" layer="21" font="vector" ratio="20" rot="R90">TXD</text>
-<text x="12.09675" y="24.98725" size="0.6096" layer="21" font="vector" ratio="20" rot="R90">RXD</text>
-<text x="12.79525" y="24.98725" size="0.6096" layer="21" font="vector" ratio="20" rot="R90">VCC</text>
-<text x="13.843" y="24.86025" size="0.6096" layer="21" font="vector" ratio="20" rot="R90">GND</text>
+<text x="10.541" y="24.765" size="0.7112" layer="21" font="vector" ratio="10" rot="R90">DTR</text>
+<text x="11.39825" y="24.7015" size="0.7112" layer="21" font="vector" ratio="10" rot="R90">TXD</text>
+<text x="12.16025" y="24.73325" size="0.7112" layer="21" font="vector" ratio="10" rot="R90">RXD</text>
+<text x="12.98575" y="24.73325" size="0.7112" layer="21" font="vector" ratio="10" rot="R90">VCC</text>
+<text x="14.097" y="24.66975" size="0.7112" layer="21" font="vector" ratio="10" rot="R90">GND</text>
 <text x="13.55725" y="6.5405" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">GND</text>
 <text x="13.55725" y="12.1285" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">6V</text>
 <text x="13.55725" y="9.17575" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">2.5V</text>
@@ -834,12 +834,12 @@ by Joaquín de Prada</text>
 <wire x1="22.2975" y1="23.1799" x2="22.3284" y2="23.0807" width="0.1524" layer="22"/>
 <text x="10.4775" y="15.748" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">6V</text>
 <text x="10.4775" y="18.161" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">2.5V</text>
-<text x="27.305" y="11.1125" size="0.8128" layer="21" font="vector" ratio="20">VCC</text>
-<text x="29.337" y="5.6515" size="0.8128" layer="21" font="vector" ratio="20" rot="R180">MISO</text>
-<text x="34.163" y="5.6515" size="0.8128" layer="21" font="vector" ratio="20" rot="R180">RST</text>
-<text x="31.623" y="5.6515" size="0.8128" layer="21" font="vector" ratio="20" rot="R180">SCK</text>
-<text x="29.464" y="11.1125" size="0.8128" layer="21" font="vector" ratio="20">MOSI</text>
-<text x="32.258" y="11.1125" size="0.8128" layer="21" font="vector" ratio="20">GND</text>
+<text x="28.5115" y="11.303" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">VCC</text>
+<text x="27.686" y="5.461" size="0.8128" layer="21" font="vector" ratio="20" rot="R270">MISO</text>
+<text x="32.8295" y="5.207" size="0.8128" layer="21" font="vector" ratio="20" rot="R270">RST</text>
+<text x="30.353" y="5.334" size="0.8128" layer="21" font="vector" ratio="20" rot="R270">SCK</text>
+<text x="31.0515" y="11.176" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">MOSI</text>
+<text x="33.3375" y="11.303" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">GND</text>
 <circle x="26.67" y="5.842" radius="0.1419875" width="0.3048" layer="21"/>
 </plain>
 <libraries>
@@ -3601,8 +3601,6 @@ design rules under a new name.</description>
 <vertex x="93.3643" y="22.9746"/>
 </polygon>
 <contactref element="Y1" pad="GND"/>
-<wire x1="23.1648" y1="23.368" x2="22.5552" y2="23.368" width="0.2032" layer="1"/>
-<wire x1="24.7904" y1="24.9936" x2="23.1648" y2="23.368" width="0.2032" layer="1"/>
 <wire x1="24.7904" y1="24.9936" x2="24.9682" y2="25.146" width="0.2032" layer="1"/>
 <wire x1="77.6224" y1="21.5392" x2="74.3712" y2="21.5392" width="0.2032" layer="16"/>
 <wire x1="76.6064" y1="22.5552" x2="76.454" y2="22.606" width="0.2032" layer="1"/>
@@ -3616,7 +3614,7 @@ design rules under a new name.</description>
 <wire x1="82.7024" y1="11.9888" x2="82.7024" y2="13.0048" width="0.2032" layer="16"/>
 <wire x1="81.0768" y1="10.3632" x2="82.7024" y2="11.9888" width="0.2032" layer="16"/>
 <wire x1="73.5584" y1="10.3632" x2="81.0768" y2="10.3632" width="0.2032" layer="16"/>
-<via x="22.5552" y="23.368" extent="1-16" drill="0.35"/>
+<via x="22.2377" y="22.098" extent="1-16" drill="0.35"/>
 <via x="74.3712" y="21.5392" extent="1-16" drill="0.35"/>
 <via x="77.6224" y="21.5392" extent="1-16" drill="0.35"/>
 <via x="80.264" y="13.0048" extent="1-16" drill="0.35"/>
