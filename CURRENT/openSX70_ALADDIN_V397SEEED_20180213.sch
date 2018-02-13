@@ -8760,7 +8760,6 @@ NOT BOTH AT ONCE
 <instance part="U$4" gate="G$1" x="137.16" y="15.24" rot="MR180"/>
 <instance part="R15" gate="G$1" x="-1.778" y="39.116" smashed="yes">
 <attribute name="NAME" x="-5.588" y="41.1226" size="1.778" layer="95"/>
-<attribute name="VALUE" x="2.54" y="42.672" size="1.778" layer="96" rot="R90"/>
 </instance>
 </instances>
 <busses>
@@ -8890,7 +8889,7 @@ NOT BOTH AT ONCE
 <label x="35.56" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="RXD" class="0">
+<net name="100R" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="PD0(RXD)"/>
 <wire x1="193.04" y1="104.14" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
@@ -8902,6 +8901,7 @@ NOT BOTH AT ONCE
 <pinref part="U$4" gate="G$1" pin="3"/>
 <wire x1="127" y1="22.86" x2="127" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="127" y1="20.32" x2="127" y2="17.78" width="0.1524" layer="91"/>
+<label x="-5.08" y="35.56" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TXD" class="0">
