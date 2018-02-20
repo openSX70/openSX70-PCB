@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.6.1">
+<eagle version="8.6.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -4945,7 +4945,7 @@ NOT BOTH AT ONCE
 <attribute name="NAME" x="76.2" y="65.2526" size="1.778" layer="95"/>
 <attribute name="VALUE" x="76.454" y="59.944" size="1.778" layer="96"/>
 </instance>
-<instance part="R7" gate="G$1" x="210.82" y="109.22"/>
+<instance part="R7" gate="G$1" x="212.09" y="121.92"/>
 <instance part="R8" gate="G$1" x="27.94" y="7.62" rot="R90"/>
 <instance part="GND8" gate="1" x="88.9" y="63.5" rot="R90"/>
 <instance part="R9" gate="G$1" x="12.7" y="63.5" smashed="yes">
@@ -5536,7 +5536,7 @@ NOT BOTH AT ONCE
 <pinref part="U$1" gate="G$1" pin="MOTOR+"/>
 <wire x1="228.6" y1="93.98" x2="215.9" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
-<wire x1="214.63" y1="109.22" x2="215.9" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="215.9" y1="121.92" x2="215.9" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -5637,9 +5637,8 @@ NOT BOTH AT ONCE
 <net name="MOTOR+" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="PC2(ADC2)"/>
-<wire x1="193.04" y1="121.92" x2="205.74" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="193.04" y1="121.92" x2="208.28" y2="121.92" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
-<wire x1="205.74" y1="121.92" x2="207.01" y2="109.22" width="0.1524" layer="91"/>
 <label x="195.58" y="121.92" size="1.778" layer="95"/>
 </segment>
 </net>
