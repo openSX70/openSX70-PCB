@@ -4755,7 +4755,7 @@ new: Attribute TP_SIGNAL_NAME&lt;br&gt;
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="D3" library="Common-Parts-Library-Eagle" deviceset="1N4148WS" device="" value="1N4148WSF"/>
 <part name="U$4" library="Seeed-OPL-2017-01-connector-edward" deviceset="SMD-FPC-CONN-0512810594" device="&quot;"/>
-<part name="R15" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-100R-5%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:32791/1" value="100R"/>
+<part name="R15" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-100R-5%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:32791/1" value="0R"/>
 <part name="JP2" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_3_1-NC_TRACE" device="_SILK" value="FTDI VCC SELECTOR"/>
 <part name="P+9" library="openSX70" deviceset="VCC" device="" value="6V"/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
@@ -4804,6 +4804,10 @@ ONLY 6V OR 3.3V
 NOT BOTH AT ONCE
 </text>
 <text x="58.42" y="167.64" size="5.08" layer="95" font="vector">SEEEDSTUDIO FUSION VERSION ONLY 5P-FPC</text>
+<text x="55.88" y="43.18" size="1.778" layer="96">MISO</text>
+<text x="55.88" y="40.64" size="1.778" layer="96">SCK</text>
+<text x="55.88" y="38.1" size="1.778" layer="96">RESET</text>
+<text x="96.52" y="40.64" size="1.778" layer="96">MOSI</text>
 </plain>
 <instances>
 <instance part="U$1" gate="G$1" x="238.76" y="93.98" rot="MR0"/>
@@ -4870,7 +4874,7 @@ NOT BOTH AT ONCE
 <instance part="GND8" gate="1" x="88.9" y="63.5" rot="R90"/>
 <instance part="R9" gate="G$1" x="12.7" y="63.5" smashed="yes">
 <attribute name="NAME" x="10.922" y="65.2526" size="1.778" layer="95"/>
-<attribute name="VALUE" x="10.668" y="59.69" size="1.778" layer="96"/>
+<attribute name="VALUE" x="8.128" y="59.69" size="1.778" layer="96"/>
 </instance>
 <instance part="R10" gate="G$1" x="27.94" y="63.5" smashed="yes">
 <attribute name="NAME" x="25.908" y="64.9986" size="1.778" layer="95"/>
@@ -4881,7 +4885,7 @@ NOT BOTH AT ONCE
 <instance part="GND11" gate="1" x="142.24" y="71.12" rot="R270"/>
 <instance part="GND12" gate="1" x="238.76" y="137.16"/>
 <instance part="P+5" gate="VCC" x="167.64" y="147.32" rot="R90"/>
-<instance part="GND16" gate="1" x="27.94" y="0"/>
+<instance part="GND16" gate="1" x="27.94" y="2.54"/>
 <instance part="C2" gate="G$1" x="93.98" y="9.144" smashed="yes" rot="R270">
 <attribute name="NAME" x="91.186" y="11.43" size="1.27" layer="95" font="vector" ratio="10"/>
 <attribute name="VALUE" x="96.266" y="10.16" size="1.27" layer="96" font="vector" ratio="10"/>
@@ -5101,12 +5105,6 @@ NOT BOTH AT ONCE
 <wire x1="193.04" y1="104.14" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
 <label x="195.58" y="104.14" size="1.778" layer="95"/>
 </segment>
-<segment>
-<label x="121.92" y="40.64" size="1.778" layer="95"/>
-<pinref part="U$4" gate="G$1" pin="3"/>
-<wire x1="127" y1="20.32" x2="127" y2="40.64" width="0.1524" layer="91"/>
-<label x="-10.16" y="22.86" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="TXD" class="0">
 <segment>
@@ -5257,7 +5255,7 @@ NOT BOTH AT ONCE
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="27.94" y1="2.54" x2="27.94" y2="3.81" width="0.1524" layer="91"/>
+<wire x1="27.94" y1="5.08" x2="27.94" y2="3.81" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -5599,6 +5597,14 @@ NOT BOTH AT ONCE
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="7.62" y1="20.32" x2="-3.556" y2="20.32" width="0.1524" layer="91"/>
 <wire x1="-3.556" y1="20.32" x2="-3.556" y2="22.352" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="0R" class="0">
+<segment>
+<label x="121.92" y="40.64" size="1.778" layer="95"/>
+<pinref part="U$4" gate="G$1" pin="3"/>
+<wire x1="127" y1="20.32" x2="127" y2="40.64" width="0.1524" layer="91"/>
+<label x="-7.62" y="22.86" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
