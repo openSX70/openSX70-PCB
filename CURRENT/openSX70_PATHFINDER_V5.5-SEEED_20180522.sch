@@ -4608,7 +4608,7 @@ METER</text>
 <text x="172.72" y="160.02" size="2.1844" layer="97" align="center">SOLENOID 2
 (FLASH)</text>
 <text x="43.18" y="124.46" size="2.1844" layer="91">S2</text>
-<text x="127" y="2.54" size="2.1844" layer="97" align="center">5-WAY
+<text x="127" y="2.54" size="2.1844" layer="97" align="center">6-WAY
 FTDI
 HEADER</text>
 <text x="53.34" y="22.86" size="2.1844" layer="97" align="center">VOLTAGE
