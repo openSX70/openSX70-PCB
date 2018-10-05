@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3510,12 +3510,11 @@ FLASH</text>
 <text x="203.454" y="24.638" size="2.0066" layer="97" align="center">Design by Joaquín de Prada
 Creative Commons "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" 
 https://creativecommons.org/licenses/by-nc/4.0/</text>
-<text x="158.496" y="1.016" size="3.81" layer="97">GitHub "Pathfinder" version</text>
+<text x="158.496" y="1.016" size="3.81" layer="97">GitHub "ALPHA" version</text>
 <text x="139.7" y="38.1" size="1.6764" layer="97">DEFAULT 6V
 ONLY 6V OR 3.3V
 NOT BOTH AT ONCE
 </text>
-<text x="58.42" y="167.64" size="5.08" layer="95" font="vector">SEEEDSTUDIO FUSION VERSION ONLY 6P-FPC</text>
 <text x="55.88" y="43.18" size="1.778" layer="96">MISO</text>
 <text x="55.88" y="40.64" size="1.778" layer="96">SCK</text>
 <text x="55.88" y="38.1" size="1.778" layer="96">RESET</text>
@@ -4184,11 +4183,6 @@ NOT BOTH AT ONCE
 <pinref part="U1" gate="U$1" pin="PD0(RXD)"/>
 <wire x1="193.04" y1="104.14" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
 <label x="195.58" y="104.14" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="N$27" class="0">
-<segment>
-<wire x1="104.14" y1="157.48" x2="104.14" y2="160.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
