@@ -723,7 +723,7 @@ METER</text>
 <text x="15.2625" y="1.36525" size="0.8128" layer="25" font="vector" ratio="20">LED</text>
 <text x="15.42975" y="2.62575" size="0.8128" layer="25" font="vector" ratio="20" rot="MR0">A+</text>
 <text x="79.72425" y="24.0665" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">SOL2-</text>
-<text x="49.5225" y="3.55525" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">ALPHA</text>
+<text x="50.0225" y="3.79025" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">"ALPHA"</text>
 <text x="35.8775" y="25.87625" size="1.9304" layer="21" font="vector" ratio="15">www.openSX70.com</text>
 <text x="59.6265" y="25.74925" size="1.9304" layer="22" font="vector" ratio="15" rot="MR0">www.openSX70.com</text>
 <text x="41.2115" y="23.33625" size="1.27" layer="22" font="vector" ratio="15" rot="MR328">layout 6</text>
@@ -742,7 +742,7 @@ by Joaquín de Prada</text>
 <wire x1="59.944" y1="8.89" x2="59.944" y2="5.207" width="0.1524" layer="21"/>
 <wire x1="59.944" y1="5.207" x2="55.88" y2="5.207" width="0.1524" layer="21"/>
 <wire x1="55.88" y1="5.207" x2="55.88" y2="8.89" width="0.1524" layer="21"/>
-<text x="43.3735" y="3.03775" size="1.27" layer="21" font="vector" ratio="15">ALPHA</text>
+<text x="43.2035" y="3.82275" size="1.27" layer="21" font="vector" ratio="15">"ALPHA"</text>
 <wire x1="18.70626875" y1="8.91993125" x2="34.94178125" y2="28.431140625" width="0.254" layer="51"/>
 <wire x1="34.94178125" y1="28.431140625" x2="61.894509375" y2="28.558140625" width="0.254" layer="51"/>
 <wire x1="61.894509375" y1="28.558140625" x2="75.63276875" y2="9.113890625" width="0.254" layer="51"/>
