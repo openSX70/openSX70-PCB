@@ -3275,6 +3275,23 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <smd name="C" x="-1.4" y="0" dx="1.05" dy="0.6" layer="1"/>
 <smd name="A" x="1.4" y="0" dx="1.05" dy="0.6" layer="1"/>
 </package>
+<package name="RC0603FR-0710KL_RESC1608X55">
+<description>&lt;b&gt;RESISTOR&lt;/b&gt;</description>
+<wire x1="-1.573" y1="0.683" x2="1.573" y2="0.683" width="0.0508" layer="39"/>
+<wire x1="1.573" y1="0.683" x2="1.573" y2="-0.683" width="0.0508" layer="39"/>
+<wire x1="1.573" y1="-0.683" x2="-1.573" y2="-0.683" width="0.0508" layer="39"/>
+<wire x1="-1.573" y1="-0.683" x2="-1.573" y2="0.683" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<text x="-1.635" y="0.735" size="0.5" layer="25">&gt;NAME</text>
+<text x="-1.635" y="-1.255" size="0.5" layer="27">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<wire x1="-0.15" y1="0.45" x2="0.15" y2="0.45" width="0.127" layer="21"/>
+<wire x1="-0.15" y1="-0.45" x2="0.15" y2="-0.45" width="0.127" layer="21"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="1N4148WS">
@@ -3290,6 +3307,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="1.27" y1="0" x2="5.08" y2="0" width="0.254" layer="94"/>
 <pin name="A" x="-7.62" y="0" length="short" direction="pas"/>
 <pin name="C" x="7.62" y="0" length="short" direction="pas" rot="R180"/>
+</symbol>
+<symbol name="RC0603FR-0710KL">
+<text x="-3.81" y="2.0066" size="1.778" layer="95">&gt;NAME</text>
+<text x="-3.81" y="-3.556" size="1.778" layer="96">&gt;VALUE</text>
+<wire x1="-5.08" y1="0" x2="-3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="1.27" x2="-1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-1.27" x2="0" y2="1.27" width="0.254" layer="94"/>
+<wire x1="0" y1="1.27" x2="1.27" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="1.27" y1="-1.27" x2="2.54" y2="1.27" width="0.254" layer="94"/>
+<wire x1="2.54" y1="1.27" x2="3.81" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="3.81" y1="-1.27" x2="5.08" y2="0" width="0.254" layer="94"/>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3307,6 +3338,25 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <technologies>
 <technology name="">
 <attribute name="MANUFACTURER" value="Fairchild Semiconductor"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="RC0603FR-0710KL" prefix="R">
+<description>RC Series 0603 0.1 W 10 kOhms 1% ±100 ppm/°C SMT Thick Film Chip Resistor</description>
+<gates>
+<gate name="G$1" symbol="RC0603FR-0710KL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RC0603FR-0710KL_RESC1608X55">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="YAGEO"/>
 </technology>
 </technologies>
 </device>
@@ -3400,6 +3450,83 @@ Created by Yingchun,shan&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="VBPW34S">
+<packages>
+<package name="SOD6439X130N">
+<wire x1="-2.2" y1="1.95" x2="2.2" y2="1.95" width="0.2" layer="21"/>
+<wire x1="2.2" y1="1.95" x2="2.2" y2="-1.95" width="0.2" layer="51"/>
+<wire x1="2.2" y1="-1.95" x2="-2.2" y2="-1.95" width="0.2" layer="21"/>
+<wire x1="-2.2" y1="-1.95" x2="-2.2" y2="1.95" width="0.2" layer="51"/>
+<text x="-3.556190625" y="2.45428125" size="0.6106625" layer="25">&gt;NAME</text>
+<text x="-3.758709375" y="-3.15731875" size="0.611015625" layer="27">&gt;VALUE</text>
+<wire x1="-3.95" y1="2.25" x2="3.95" y2="2.25" width="0.05" layer="39"/>
+<wire x1="3.95" y1="2.25" x2="3.95" y2="-2.25" width="0.05" layer="39"/>
+<wire x1="3.95" y1="-2.25" x2="-3.95" y2="-2.25" width="0.05" layer="39"/>
+<wire x1="-3.95" y1="-2.25" x2="-3.95" y2="2.25" width="0.05" layer="39"/>
+<circle x="-3.6" y="1.3" radius="0.15" width="0" layer="21"/>
+<wire x1="0.4" y1="0.6" x2="0.4" y2="0" width="0.2" layer="51"/>
+<wire x1="0.4" y1="0" x2="0.4" y2="-0.6" width="0.2" layer="51"/>
+<wire x1="0.4" y1="-0.6" x2="-0.2" y2="0" width="0.2" layer="51"/>
+<wire x1="-0.2" y1="0" x2="0.4" y2="0.6" width="0.2" layer="51"/>
+<wire x1="-0.2" y1="0.6" x2="-0.2" y2="0" width="0.2" layer="51"/>
+<wire x1="-0.2" y1="0" x2="-0.2" y2="-0.6" width="0.2" layer="51"/>
+<wire x1="0.4" y1="0" x2="0.8" y2="0" width="0.2" layer="51"/>
+<wire x1="-0.2" y1="0" x2="-0.6" y2="0" width="0.2" layer="51"/>
+<smd name="C" x="-2.95" y="0" dx="1.5" dy="1.8" layer="1"/>
+<smd name="A" x="2.95" y="0" dx="1.5" dy="1.8" layer="1"/>
+</package>
+</packages>
+<symbols>
+<symbol name="VBPW34S">
+<text x="-7.640590625" y="5.09371875" size="1.7828" layer="95">&gt;NAME</text>
+<text x="-7.63231875" y="-5.088209375" size="1.78088125" layer="96">&gt;VALUE</text>
+<wire x1="-1.27" y1="-1.905" x2="1.27" y2="0" width="0.254" layer="94"/>
+<wire x1="1.27" y1="0" x2="-1.27" y2="1.905" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="1.905" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.397" y1="1.905" x2="1.397" y2="-1.905" width="0.254" layer="94"/>
+<wire x1="1.016" y1="3.556" x2="2.032" y2="4.572" width="0.1524" layer="94"/>
+<wire x1="1.778" y1="2.794" x2="2.794" y2="3.81" width="0.1524" layer="94"/>
+<polygon width="0.1524" layer="94">
+<vertex x="1.016" y="4.064"/>
+<vertex x="1.524" y="3.556"/>
+<vertex x="0.762" y="3.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="1.778" y="3.302"/>
+<vertex x="2.286" y="2.794"/>
+<vertex x="1.524" y="2.54"/>
+</polygon>
+<pin name="A" x="-5.08" y="0" visible="off" length="middle" direction="pas"/>
+<pin name="C" x="5.08" y="0" visible="off" length="middle" direction="pas" rot="R180"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="VBPW34S" prefix="D">
+<description>VBPW34SR Series 60 V 940 nm 50 mA 215 mW Surface Mount Silicon PIN Photodiode</description>
+<gates>
+<gate name="G$1" symbol="VBPW34S" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SOD6439X130N">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="DESCRIPTION" value=" VBPW34SR Series 60 V 940 nm 50 mA 215 mW Surface Mount Silicon PIN Photodiode "/>
+<attribute name="DIGI-KEY_PART_NUMBER" value="751-1500-1-ND"/>
+<attribute name="DIGI-KEY_PURCHASE_URL" value="https://www.digikey.es/product-detail/en/vishay-semiconductor-opto-division/VBPW34S/751-1500-1-ND/2354866?utm_source=snapeda&amp;utm_medium=aggregator&amp;utm_campaign=symbol"/>
+<attribute name="MF" value="Vishay"/>
+<attribute name="MP" value="VBPW34S"/>
+<attribute name="PACKAGE" value="SMD-2 Vishay"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -3473,6 +3600,12 @@ Created by Yingchun,shan&lt;br&gt;
 <part name="ICSP" library="openSX70" deviceset="ICSP" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="J1" library="687106183722" deviceset="687106183722" device=""/>
+<part name="D3" library="VBPW34S" deviceset="VBPW34S" device=""/>
+<part name="SUPPLY2" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
+<part name="R11" library="Common-Parts-Library-Eagle" deviceset="RC0603FR-0710KL" device=""/>
+<part name="GND13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="C3" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:32378/1" value="100nf"/>
+<part name="GND15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3643,6 +3776,15 @@ NOT BOTH AT ONCE
 <instance part="ICSP" gate="G$1" x="78.74" y="40.64"/>
 <instance part="GND4" gate="1" x="88.9" y="35.56"/>
 <instance part="J1" gate="G$1" x="127" y="10.16" rot="MR270"/>
+<instance part="D3" gate="G$1" x="109.22" y="152.4"/>
+<instance part="SUPPLY2" gate="G$1" x="137.16" y="152.4" rot="R270"/>
+<instance part="R11" gate="G$1" x="124.46" y="152.4"/>
+<instance part="GND13" gate="1" x="93.98" y="152.4" rot="R270"/>
+<instance part="C3" gate="G$1" x="114.3" y="163.576" smashed="yes" rot="R90">
+<attribute name="NAME" x="117.094" y="161.29" size="1.27" layer="95" font="vector" ratio="10" rot="R180"/>
+<attribute name="VALUE" x="112.014" y="162.56" size="1.27" layer="96" font="vector" ratio="10" rot="R180"/>
+</instance>
+<instance part="GND15" gate="1" x="114.3" y="170.18" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -3818,6 +3960,11 @@ NOT BOTH AT ONCE
 <pinref part="JP1" gate="G$1" pin="1"/>
 <pinref part="SUPPLY1" gate="G$1" pin="3.3V"/>
 </segment>
+<segment>
+<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="SUPPLY2" gate="G$1" pin="3.3V"/>
+<wire x1="132.08" y1="152.4" x2="137.16" y2="152.4" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="GND" class="0">
 <segment>
@@ -3916,6 +4063,16 @@ NOT BOTH AT ONCE
 <pinref part="GND1" gate="1" pin="GND"/>
 <pinref part="J1" gate="G$1" pin="6"/>
 <wire x1="134.62" y1="25.4" x2="134.62" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND13" gate="1" pin="GND"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="96.52" y1="152.4" x2="104.14" y2="152.4" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND15" gate="1" pin="GND"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="114.3" y1="167.64" x2="114.3" y2="167.386" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="6V" class="0">
@@ -4183,6 +4340,25 @@ NOT BOTH AT ONCE
 <pinref part="U1" gate="U$1" pin="PD0(RXD)"/>
 <wire x1="193.04" y1="104.14" x2="200.66" y2="104.14" width="0.1524" layer="91"/>
 <label x="195.58" y="104.14" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="PDIODE" class="0">
+<segment>
+<pinref part="U1" gate="U$1" pin="PC3(ADC3)"/>
+<wire x1="193.04" y1="119.38" x2="205.74" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="119.38" x2="205.74" y2="114.3" width="0.1524" layer="91"/>
+<wire x1="205.74" y1="114.3" x2="210.82" y2="114.3" width="0.1524" layer="91"/>
+<label x="205.74" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D3" gate="G$1" pin="C"/>
+<pinref part="R11" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="152.4" x2="116.84" y2="152.4" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="114.3" y1="159.766" x2="114.3" y2="152.4" width="0.1524" layer="91"/>
+<junction x="114.3" y="152.4"/>
+<wire x1="114.3" y1="152.4" x2="114.3" y2="134.62" width="0.1524" layer="91"/>
+<label x="116.84" y="134.62" size="1.778" layer="95" rot="R90"/>
 </segment>
 </net>
 </nets>
