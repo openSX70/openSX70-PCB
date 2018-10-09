@@ -3606,6 +3606,7 @@ Created by Yingchun,shan&lt;br&gt;
 <part name="GND13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="C3" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:32378/1" value="100nf"/>
 <part name="GND15" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="SOL2" library="openSX70" deviceset="SX70-SOLENOID1-2PADS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -3617,7 +3618,7 @@ METER</text>
 <text x="237.236" y="116.84" size="2.1844" layer="97" align="center">FLEXCABLE
 (TO CAMERA)</text>
 <text x="223.52" y="165.1" size="2.1844" layer="97">RED BUTTON</text>
-<text x="221.742" y="46.736" size="1.778" layer="97" align="center">SOLENOID 1
+<text x="221.742" y="41.656" size="1.778" layer="97" align="center">SOLENOID 1
 (SHUTTER)</text>
 <text x="172.72" y="160.02" size="2.1844" layer="97" align="center">SOLENOID 2
 (FLASH)</text>
@@ -3640,7 +3641,7 @@ SWITCH N-MOSFET</text>
 or
 FLASH</text>
 <text x="246.38" y="2.54" size="2.1844" layer="97" align="center">v 5.6</text>
-<text x="203.454" y="24.638" size="2.0066" layer="97" align="center">Design by Joaquín de Prada
+<text x="205.994" y="24.638" size="2.0066" layer="97" align="center">Design by Joaquín de Prada
 Creative Commons "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" 
 https://creativecommons.org/licenses/by-nc/4.0/</text>
 <text x="158.496" y="1.016" size="3.81" layer="97">GitHub "ALPHA" version</text>
@@ -3679,9 +3680,9 @@ NOT BOTH AT ONCE
 <instance part="FRAME1" gate="G$2" x="152.4" y="-5.08">
 <attribute name="LAST_DATE_TIME" x="165.1" y="-3.81" size="2.54" layer="94"/>
 <attribute name="SHEET" x="238.76" y="-3.81" size="2.54" layer="94"/>
-<attribute name="DRAWING_NAME" x="165.1" y="11.43" size="2.1844" layer="94"/>
+<attribute name="DRAWING_NAME" x="172.212" y="12.192" size="2.1844" layer="94"/>
 </instance>
-<instance part="SOL1" gate="G$1" x="220.98" y="45.72" rot="R180"/>
+<instance part="SOL1" gate="G$1" x="220.98" y="40.64" rot="R180"/>
 <instance part="LED1" gate="G$1" x="27.94" y="17.78">
 <attribute name="NAME" x="31.496" y="13.208" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="33.655" y="13.208" size="1.778" layer="96" rot="R90"/>
@@ -3735,8 +3736,8 @@ NOT BOTH AT ONCE
 <instance part="GND5" gate="1" x="73.914" y="76.454">
 <attribute name="VALUE" x="73.914" y="76.2" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="P+3" gate="VCC" x="200.66" y="43.18" rot="R90">
-<attribute name="VALUE" x="203.2" y="40.64" size="1.778" layer="96" rot="R180"/>
+<instance part="P+3" gate="VCC" x="200.66" y="38.1" rot="R90">
+<attribute name="VALUE" x="203.2" y="35.56" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="R4" gate="G$1" x="20.32" y="85.09" rot="R90">
 <attribute name="NAME" x="17.78" y="85.09" size="1.27" layer="95" ratio="10" rot="R180"/>
@@ -3846,12 +3847,12 @@ NOT BOTH AT ONCE
 <instance part="P+7" gate="VCC" x="137.16" y="48.26" rot="R270">
 <attribute name="VALUE" x="134.62" y="50.8" size="1.778" layer="96"/>
 </instance>
-<instance part="D1" gate="G$1" x="195.58" y="50.8" rot="R180">
-<attribute name="NAME" x="195.58" y="47.625" size="1.778" layer="95" rot="R180"/>
-<attribute name="VALUE" x="190.5" y="53.975" size="1.778" layer="96"/>
+<instance part="D1" gate="G$1" x="195.58" y="45.72" rot="R180">
+<attribute name="NAME" x="195.58" y="42.545" size="1.778" layer="95" rot="R180"/>
+<attribute name="VALUE" x="190.5" y="48.895" size="1.778" layer="96"/>
 </instance>
-<instance part="P+8" gate="VCC" x="182.88" y="50.8" rot="R90">
-<attribute name="VALUE" x="185.42" y="48.26" size="1.778" layer="96" rot="R180"/>
+<instance part="P+8" gate="VCC" x="182.88" y="45.72" rot="R90">
+<attribute name="VALUE" x="185.42" y="43.18" size="1.778" layer="96" rot="R180"/>
 </instance>
 <instance part="ICSP" gate="G$1" x="78.74" y="40.64">
 <attribute name="NAME" x="72.39" y="46.99" size="1.27" layer="95" ratio="10"/>
@@ -3885,6 +3886,7 @@ NOT BOTH AT ONCE
 <instance part="GND15" gate="1" x="114.3" y="170.18" rot="R180">
 <attribute name="VALUE" x="114.3" y="170.434" size="1.778" layer="96" rot="R180" align="top-center"/>
 </instance>
+<instance part="SOL2" gate="G$1" x="220.98" y="58.42" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -4188,7 +4190,7 @@ NOT BOTH AT ONCE
 </segment>
 <segment>
 <pinref part="SOL1" gate="G$1" pin="+"/>
-<wire x1="208.28" y1="43.18" x2="203.2" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="208.28" y1="38.1" x2="203.2" y2="38.1" width="0.1524" layer="91"/>
 <pinref part="P+3" gate="VCC" pin="6V"/>
 </segment>
 <segment>
@@ -4222,7 +4224,7 @@ NOT BOTH AT ONCE
 <segment>
 <pinref part="P+8" gate="VCC" pin="6V"/>
 <pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="185.42" y1="50.8" x2="187.96" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="185.42" y1="45.72" x2="187.96" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="ICSP" gate="G$1" pin="VCC"/>
@@ -4238,10 +4240,10 @@ NOT BOTH AT ONCE
 </segment>
 <segment>
 <pinref part="SOL1" gate="G$1" pin="-"/>
-<wire x1="208.28" y1="50.8" x2="203.2" y2="50.8" width="0.1524" layer="91"/>
-<label x="200.66" y="48.26" size="1.778" layer="95"/>
+<wire x1="208.28" y1="45.72" x2="203.2" y2="45.72" width="0.1524" layer="91"/>
+<label x="200.66" y="43.18" size="1.778" layer="95"/>
 <pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="203.2" y1="50.8" x2="200.66" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="203.2" y1="45.72" x2="200.66" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">
