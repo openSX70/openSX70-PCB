@@ -3550,7 +3550,7 @@ Created by Yingchun,shan&lt;br&gt;
 <package name="SX70-7-PAD-PROPER">
 <text x="0.5" y="-1" size="0.6096" layer="51">camera connector</text>
 <text x="0.5" y="-2" size="0.6096" layer="51">pitch 1,75mm</text>
-<text x="0.5" y="-3" size="0.6096" layer="51">angle 298º inversed 244º</text>
+<text x="0.5" y="-3" size="0.6096" layer="51">angle 296º inversed 244º</text>
 <polygon width="0.127" layer="1">
 <vertex x="0.21875" y="2.40625"/>
 <vertex x="1.53125" y="2.40625"/>
@@ -3692,7 +3692,44 @@ Created by Yingchun,shan&lt;br&gt;
 <smd name="S3" x="9.625" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 <smd name="S5" x="11.375" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90"/>
 </package>
+<package name="DUOLED-A-3MM" urn="urn:adsk.eagle:footprint:15758/1" locally_modified="yes">
+<description>&lt;b&gt;T-1(3mm) BI-COLOR INDICATOR LAMP&lt;/b&gt;&lt;p&gt;
+Source: Kingbright .. 2_colour_led_.pdf</description>
+<wire x1="1.27" y1="1.5748" x2="-1.27" y2="1.5748" width="0.254" layer="21"/>
+<wire x1="0" y1="-1.524" x2="-0.9756" y2="-1.1708" width="0.1524" layer="21" curve="-39.806332"/>
+<wire x1="0" y1="-1.524" x2="1.0125" y2="-1.1391" width="0.1524" layer="21" curve="41.638926"/>
+<wire x1="-0.9918" y1="1.1571" x2="0" y2="1.524" width="0.1524" layer="51" curve="-40.601165"/>
+<wire x1="0.9756" y1="1.1708" x2="0" y2="1.524" width="0.1524" layer="51" curve="39.806332"/>
+<wire x1="-1.524" y1="0" x2="-0.8858" y2="1.2401" width="0.1524" layer="21" curve="-54.461337"/>
+<wire x1="-0.9144" y1="-1.2192" x2="-1.524" y2="0" width="0.1524" layer="21" curve="-53.130102"/>
+<wire x1="1.524" y1="0" x2="0.9356" y2="1.203" width="0.1524" layer="21" curve="52.130554"/>
+<wire x1="0.9356" y1="-1.203" x2="1.524" y2="0" width="0.1524" layer="21" curve="52.130554"/>
+<wire x1="0" y1="-0.635" x2="-0.635" y2="0" width="0.1524" layer="51" curve="-90"/>
+<wire x1="0" y1="-1.016" x2="-1.016" y2="0" width="0.1524" layer="51" curve="-90"/>
+<wire x1="0.635" y1="0" x2="0" y2="0.635" width="0.1524" layer="51" curve="90"/>
+<wire x1="1.016" y1="0" x2="0" y2="1.016" width="0.1524" layer="51" curve="90"/>
+<wire x1="-2.032" y1="0" x2="-1.3009" y2="1.561" width="0.254" layer="51" curve="-50.193108"/>
+<wire x1="-0.9562" y1="-1.7929" x2="-2.032" y2="0" width="0.254" layer="51" curve="-61.930333"/>
+<wire x1="2.032" y1="0" x2="1.3126" y2="1.5512" width="0.254" layer="51" curve="49.763022"/>
+<wire x1="1.0082" y1="-1.7643" x2="2.032" y2="0" width="0.254" layer="51" curve="60.265035"/>
+<wire x1="0" y1="-2.032" x2="-0.9634" y2="-1.7891" width="0.254" layer="21" curve="-28.301701"/>
+<wire x1="0" y1="-2.032" x2="1.065" y2="-1.7306" width="0.254" layer="21" curve="31.609816"/>
+<text x="3.81" y="2.54" size="1.27" layer="25" ratio="10">&gt;NAME</text>
+<text x="3.81" y="-2.54" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
+<smd name="ANODE-RED" x="-2.5" y="0" dx="4" dy="1.4" layer="1" rot="R90"/>
+<smd name="COMMON-CATODE" x="-0.01" y="0" dx="4" dy="1.4" layer="1" rot="R270"/>
+<smd name="ANODE-GREEN" x="2.52" y="0" dx="4" dy="1.4" layer="1" rot="R90"/>
+</package>
 </packages>
+<packages3d>
+<package3d name="DUOLED-A-3MM" urn="urn:adsk.eagle:package:15877/1" locally_modified="yes" type="box">
+<description>T-1(3mm) BI-COLOR INDICATOR LAMP
+Source: Kingbright .. 2_colour_led_.pdf</description>
+<packageinstances>
+<packageinstance name="DUOLED-A-3MM"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
 <symbol name="SX70-7-PAD-SYMBOL">
 <wire x1="-7.62" y1="17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
@@ -3706,6 +3743,53 @@ Created by Yingchun,shan&lt;br&gt;
 <pin name="GND" x="10.16" y="-5.08" length="short" rot="R180"/>
 <pin name="S3" x="10.16" y="-10.16" length="short" rot="R180"/>
 <pin name="S5" x="10.16" y="-15.24" length="short" rot="R180"/>
+</symbol>
+<symbol name="DUOLED-RG-A">
+<wire x1="0" y1="2.54" x2="0" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="5.08" x2="-1.27" y2="5.08" width="0.254" layer="94"/>
+<wire x1="1.27" y1="5.08" x2="0" y2="5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-1.27" y2="2.54" width="0.254" layer="94"/>
+<wire x1="1.27" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="-2.032" y1="4.318" x2="-3.429" y2="2.921" width="0.1524" layer="94"/>
+<wire x1="-1.905" y1="3.175" x2="-3.302" y2="1.778" width="0.1524" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-5.08" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-5.08" x2="1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.54" x2="1.27" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="2.032" y1="-4.318" x2="3.429" y2="-2.921" width="0.1524" layer="94"/>
+<wire x1="1.905" y1="-3.175" x2="3.302" y2="-1.778" width="0.1524" layer="94"/>
+<circle x="0" y="0" radius="0.254" width="0.4064" layer="94"/>
+<text x="6.35" y="-5.08" size="1.778" layer="95" rot="R90">&gt;NAME</text>
+<text x="8.89" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<text x="-2.54" y="-3.81" size="1.016" layer="94" ratio="10" rot="R90">red</text>
+<text x="2.54" y="2.54" size="1.016" layer="94" ratio="10" rot="R90">green</text>
+<pin name="COMMON-C" x="-2.54" y="0" visible="off" length="short" direction="pas"/>
+<pin name="A-GREEN" x="0" y="7.62" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="A-RED" x="0" y="-7.62" visible="off" length="short" direction="pas" rot="R90"/>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.429" y="2.921"/>
+<vertex x="-3.048" y="3.81"/>
+<vertex x="-2.54" y="3.302"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="-3.302" y="1.778"/>
+<vertex x="-2.921" y="2.667"/>
+<vertex x="-2.413" y="2.159"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="2.413" y="-2.159"/>
+<vertex x="3.302" y="-1.778"/>
+<vertex x="2.921" y="-2.667"/>
+</polygon>
+<polygon width="0.1524" layer="94">
+<vertex x="2.54" y="-3.302"/>
+<vertex x="3.429" y="-2.921"/>
+<vertex x="3.048" y="-3.81"/>
+</polygon>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -3724,6 +3808,28 @@ Created by Yingchun,shan&lt;br&gt;
 <connect gate="G$1" pin="S8" pad="S8"/>
 <connect gate="G$1" pin="S9" pad="S9"/>
 </connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="DUAL-LED-3MM-NO-HOLE" prefix="LED">
+<description>&lt;b&gt;T-1(3mm) BI-COLOR INDICATOR LAMP&lt;/b&gt;&lt;p&gt;
+Source: Kingbright .. 2_colour_led_.pdf</description>
+<gates>
+<gate name="G$1" symbol="DUOLED-RG-A" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DUOLED-A-3MM">
+<connects>
+<connect gate="G$1" pin="A-GREEN" pad="ANODE-GREEN"/>
+<connect gate="G$1" pin="A-RED" pad="ANODE-RED"/>
+<connect gate="G$1" pin="COMMON-C" pad="COMMON-CATODE"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:15877/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -3812,6 +3918,7 @@ Created by Yingchun,shan&lt;br&gt;
 <part name="U$3" library="_openSX70" deviceset="SX70-7-PAD" device=""/>
 <part name="P+3" library="openSX70" deviceset="VCC" device="" value="6V"/>
 <part name="GND13" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="LED2" library="_openSX70" deviceset="DUAL-LED-3MM-NO-HOLE" device="" package3d_urn="urn:adsk.eagle:package:15877/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -3831,10 +3938,10 @@ METER</text>
 <text x="127" y="10.16" size="2.1844" layer="97" align="center">6-WAY
 FTDI
 HEADER</text>
-<text x="53.34" y="22.86" size="2.1844" layer="97" align="center">VOLTAGE
+<text x="93.98" y="22.86" size="2.1844" layer="97" align="center">VOLTAGE
 REGULATOR</text>
-<text x="22.86" y="30.48" size="2.1844" layer="97">LED
-(OPTIONAL)</text>
+<text x="35.56" y="33.02" size="2.1844" layer="97">LED
+(OPTION 1)</text>
 <text x="0" y="68.58" size="2.1844" layer="97">S8 LIMITER RESISTORS TO 3.3V</text>
 <text x="50.8" y="68.58" size="2.1844" layer="97">S9 LIMITER RESISTORS TO 3.3V</text>
 <text x="-2.54" y="99.06" size="2.1844" layer="97">SOLENOID 2
@@ -3862,6 +3969,10 @@ NOT BOTH AT ONCE
 <text x="215.9" y="53.34" size="1.778" layer="95">S4A</text>
 <text x="215.9" y="63.5" size="1.778" layer="95">S4B</text>
 <text x="221.742" y="59.436" size="1.778" layer="97" align="center">PRE-ALPHA</text>
+<text x="35.56" y="33.02" size="2.1844" layer="97">LED
+(OPTION 1)</text>
+<text x="0" y="40.64" size="2.1844" layer="97">LED
+(OPTION 2)</text>
 </plain>
 <instances>
 <instance part="U$2" gate="G$1" x="20.32" y="134.62"/>
@@ -3890,9 +4001,9 @@ NOT BOTH AT ONCE
 <attribute name="DRAWING_NAME" x="170.18" y="13.97" size="2.54" layer="94"/>
 </instance>
 <instance part="SOL1" gate="G$1" x="220.98" y="40.64" rot="R180"/>
-<instance part="LED1" gate="G$1" x="27.94" y="17.78">
-<attribute name="NAME" x="31.496" y="13.208" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="33.655" y="13.208" size="1.778" layer="96" rot="R90"/>
+<instance part="LED1" gate="G$1" x="40.64" y="20.32">
+<attribute name="NAME" x="44.196" y="15.748" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="46.355" y="15.748" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U1" gate="U$1" x="170.18" y="96.52">
 <attribute name="NAME" x="149.86" y="130.302" size="1.778" layer="95"/>
@@ -3962,9 +4073,9 @@ NOT BOTH AT ONCE
 <attribute name="NAME" x="208.28" y="123.19" size="1.27" layer="95" ratio="10"/>
 <attribute name="VALUE" x="208.28" y="119.38" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="R8" gate="G$1" x="27.94" y="7.62" rot="R90">
-<attribute name="NAME" x="26.67" y="3.81" size="1.27" layer="95" ratio="10" rot="R90"/>
-<attribute name="VALUE" x="30.48" y="3.81" size="1.27" layer="96" ratio="10" rot="R90"/>
+<instance part="R8" gate="G$1" x="40.64" y="10.16" rot="R90">
+<attribute name="NAME" x="39.37" y="6.35" size="1.27" layer="95" ratio="10" rot="R90"/>
+<attribute name="VALUE" x="43.18" y="6.35" size="1.27" layer="96" ratio="10" rot="R90"/>
 </instance>
 <instance part="GND8" gate="1" x="88.9" y="63.5" rot="R90">
 <attribute name="VALUE" x="89.154" y="63.5" size="1.778" layer="96" rot="R90" align="top-center"/>
@@ -3992,8 +4103,8 @@ NOT BOTH AT ONCE
 <instance part="P+5" gate="VCC" x="167.64" y="147.32" rot="R90">
 <attribute name="VALUE" x="170.18" y="144.78" size="1.778" layer="96" rot="R180"/>
 </instance>
-<instance part="GND16" gate="1" x="27.94" y="2.54">
-<attribute name="VALUE" x="27.94" y="2.286" size="1.778" layer="96" align="top-center"/>
+<instance part="GND16" gate="1" x="40.64" y="5.08">
+<attribute name="VALUE" x="40.64" y="4.826" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="C2" gate="G$1" x="93.98" y="9.144" rot="R270">
 <attribute name="NAME" x="95.25" y="12.954" size="1.27" layer="95" ratio="10" rot="R270"/>
@@ -4097,6 +4208,7 @@ NOT BOTH AT ONCE
 <instance part="GND13" gate="1" x="215.9" y="88.9" rot="R270">
 <attribute name="VALUE" x="213.614" y="88.9" size="1.778" layer="96" rot="R90" align="top-center"/>
 </instance>
+<instance part="LED2" gate="G$1" x="10.16" y="25.4"/>
 </instances>
 <busses>
 </busses>
@@ -4126,13 +4238,18 @@ NOT BOTH AT ONCE
 </segment>
 <segment>
 <pinref part="LED1" gate="G$1" pin="A"/>
-<wire x1="27.94" y1="20.32" x2="27.94" y2="27.94" width="0.1524" layer="91"/>
-<label x="33.02" y="25.4" size="1.778" layer="95"/>
+<wire x1="40.64" y1="22.86" x2="40.64" y2="30.48" width="0.1524" layer="91"/>
+<label x="45.72" y="27.94" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="ICSP" gate="G$1" pin="SCK"/>
 <wire x1="69.85" y1="40.64" x2="63.5" y2="40.64" width="0.1524" layer="91"/>
 <label x="66.04" y="40.64" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="LED2" gate="G$1" pin="A-RED"/>
+<wire x1="10.16" y1="17.78" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
+<label x="20.32" y="20.32" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S3" class="0">
@@ -4350,7 +4467,7 @@ NOT BOTH AT ONCE
 <segment>
 <pinref part="R8" gate="G$1" pin="1"/>
 <pinref part="GND16" gate="1" pin="GND"/>
-<wire x1="27.94" y1="5.08" x2="27.94" y2="3.81" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="7.62" x2="40.64" y2="6.35" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND14" gate="1" pin="GND"/>
@@ -4533,7 +4650,12 @@ NOT BOTH AT ONCE
 <segment>
 <pinref part="R8" gate="G$1" pin="2"/>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<wire x1="27.94" y1="12.7" x2="27.94" y2="11.43" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="15.24" x2="40.64" y2="13.97" width="0.1524" layer="91"/>
+<pinref part="LED2" gate="G$1" pin="COMMON-C"/>
+<wire x1="7.62" y1="25.4" x2="2.54" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="25.4" x2="2.54" y2="13.97" width="0.1524" layer="91"/>
+<wire x1="2.54" y1="13.97" x2="40.64" y2="13.97" width="0.1524" layer="91"/>
+<junction x="40.64" y="13.97"/>
 </segment>
 </net>
 <net name="DTR" class="0">
@@ -4708,12 +4830,25 @@ NOT BOTH AT ONCE
 <segment>
 <pinref part="U1" gate="U$1" pin="ADC7"/>
 <wire x1="193.04" y1="109.22" x2="203.2" y2="109.22" width="0.1524" layer="91"/>
-<label x="205.74" y="106.68" size="1.778" layer="95"/>
+<label x="195.58" y="109.22" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="101.6" y1="133.35" x2="101.6" y2="127" width="0.1524" layer="91"/>
 <label x="96.52" y="127" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="LED2" class="0">
+<segment>
+<pinref part="LED2" gate="G$1" pin="A-GREEN"/>
+<wire x1="10.16" y1="33.02" x2="10.16" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="10.16" y1="35.56" x2="20.32" y2="35.56" width="0.1524" layer="91"/>
+<label x="20.32" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="U$1" pin="PD5(T1)"/>
+<wire x1="193.04" y1="91.44" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
+<label x="195.58" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
