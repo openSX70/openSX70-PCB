@@ -3112,6 +3112,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packages3d>
 <package3d name="C0603" urn="urn:adsk.eagle:package:32378/1" type="box" library_version="1">
 <description>0603</description>
+<packageinstances>
+<packageinstance name="C0603"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -3192,6 +3195,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </packages>
 <packages3d>
 <package3d name="R0603" urn="urn:adsk.eagle:package:32791/1" type="box" library_version="1">
+<packageinstances>
+<packageinstance name="R0603"/>
+</packageinstances>
 </package3d>
 </packages3d>
 <symbols>
@@ -3684,13 +3690,13 @@ Created by Yingchun,shan&lt;br&gt;
 <vertex x="12.03125" y="0.4375"/>
 <vertex x="12.03125" y="2.40625"/>
 </polygon>
-<smd name="S8" x="0.875" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="S9" x="2.625" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="VCC" x="4.375" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="MOTOR" x="6.125" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="GND" x="7.875" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="S3" x="9.625" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90"/>
-<smd name="S5" x="11.375" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90"/>
+<smd name="S8" x="0.875" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="S9" x="2.625" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="VCC" x="4.375" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="MOTOR" x="6.125" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="GND" x="7.875" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="S3" x="9.625" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
+<smd name="S5" x="11.375" y="1.3125" dx="1.27" dy="0.635" layer="1" rot="R90" stop="no" thermals="no" cream="no"/>
 </package>
 <package name="DUOLED-A-3MM" urn="urn:adsk.eagle:footprint:15758/1" locally_modified="yes">
 <description>&lt;b&gt;T-1(3mm) BI-COLOR INDICATOR LAMP&lt;/b&gt;&lt;p&gt;
@@ -4679,6 +4685,7 @@ NOT BOTH AT ONCE
 <segment>
 <pinref part="U$3" gate="G$1" pin="S8"/>
 <wire x1="228.6" y1="109.22" x2="223.52" y2="109.22" width="0.1524" layer="91"/>
+<label x="220.98" y="111.76" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="S9@6V" class="0">
@@ -4690,7 +4697,7 @@ NOT BOTH AT ONCE
 <segment>
 <pinref part="U$3" gate="G$1" pin="S9"/>
 <wire x1="228.6" y1="104.14" x2="223.52" y2="104.14" width="0.1524" layer="91"/>
-<label x="223.52" y="106.68" size="1.778" layer="95"/>
+<label x="220.98" y="106.68" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RST" class="0">
