@@ -1137,9 +1137,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packageinstance name="C0603"/>
 </packageinstances>
 </package3d>
-<package3d name="C0603" urn="urn:adsk.eagle:package:32378@1/1" type="box" library_version="1">
-<description>0603</description>
-</package3d>
 </packages3d>
 <symbols>
 <symbol name="C" urn="urn:adsk.eagle:symbol:32365/1" library_version="1">
@@ -1191,7 +1188,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:32378@1/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32378/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1222,8 +1219,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packageinstances>
 <packageinstance name="R0603"/>
 </packageinstances>
-</package3d>
-<package3d name="R0603" urn="urn:adsk.eagle:package:32791@1/1" type="box" library_version="1">
 </package3d>
 </packages3d>
 <symbols>
@@ -1297,7 +1292,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:32791@1/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:32791/1"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -1742,23 +1737,23 @@ Created by Yingchun,shan&lt;br&gt;
 <part name="P+4" library="openSX70" deviceset="VCC" device="" value="6V"/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R5" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-15K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:32791/1" value="15K 1/10W"/>
-<part name="R6" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-10K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:32791@1/1" value="10K"/>
+<part name="R6" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-10K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:32791/1" value="10K"/>
 <part name="R7" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-100R-5%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:32791/1" value="100R"/>
 <part name="GND8" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R9" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-15K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:32791/1" value="15K 1/10W"/>
-<part name="R10" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-10K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:32791@1/1" value="10K"/>
+<part name="R10" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-10K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:32791/1" value="10K"/>
 <part name="GND9" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND11" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND12" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="P+5" library="openSX70" deviceset="VCC" device="" value="6V"/>
 <part name="C2" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:32378/1" value="100nf"/>
-<part name="C1" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="CERAMIC-10UF-10V-10%-X5R(0603)" device="" package3d_urn="urn:adsk.eagle:package:32378@1/1" value="10uf"/>
+<part name="C1" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="CERAMIC-10UF-10V-10%-X5R(0603)" device="" package3d_urn="urn:adsk.eagle:package:32378/1" value="10uf"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="C6" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:32378/1" value="100nf"/>
 <part name="C7" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" deviceset="CERAMIC-100NF-50V-10%-X7R(0603)" device="" package3d_urn="urn:adsk.eagle:package:32378/1" value="100nf"/>
 <part name="GND14" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="R12" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-10K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:32791@1/1" value="10K"/>
+<part name="R12" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-10K-1%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:32791/1" value="10K"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="3.3V" device=""/>
 <part name="P+6" library="openSX70" deviceset="VCC" device="" value="6V"/>
 <part name="Y1" library="CSTCE16M0V53-R0" deviceset="CSTCE16M0V53-R0" device="" value="CSTCE8M00G52Z-R0"/>
@@ -2191,13 +2186,6 @@ NOT BOTH AT ONCE
 <pinref part="J1" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="SDA" class="0">
-<segment>
-<pinref part="U1" gate="U$1" pin="PC4(ADC4/SDA)"/>
-<wire x1="193.04" y1="116.84" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
-<label x="195.58" y="116.84" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="3.3V" class="0">
 <segment>
 <pinref part="U1" gate="U$1" pin="VCC@4"/>
@@ -2470,13 +2458,6 @@ NOT BOTH AT ONCE
 <label x="31.75" y="98.806" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="SCL" class="0">
-<segment>
-<pinref part="U1" gate="U$1" pin="PC5(ADC5/SCL)"/>
-<wire x1="193.04" y1="114.3" x2="200.66" y2="114.3" width="0.1524" layer="91"/>
-<label x="195.58" y="114.3" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="MOTOR-HEADER" class="0">
 <segment>
 <pinref part="U$1" gate="G$1" pin="MOTOR+"/>
@@ -2629,12 +2610,22 @@ NOT BOTH AT ONCE
 <wire x1="108.966" y1="127" x2="109.22" y2="127" width="0.1524" layer="91"/>
 <label x="109.22" y="127" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="U$1" pin="PC4(ADC4/SDA)"/>
+<wire x1="193.04" y1="116.84" x2="200.66" y2="116.84" width="0.1524" layer="91"/>
+<label x="195.58" y="116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="V3-SCL" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <wire x1="93.98" y1="130.81" x2="93.98" y2="127" width="0.1524" layer="91"/>
 <label x="84.582" y="127.508" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U1" gate="U$1" pin="PC5(ADC5/SCL)"/>
+<wire x1="193.04" y1="114.3" x2="200.66" y2="114.3" width="0.1524" layer="91"/>
+<label x="195.58" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="V1" class="0">
@@ -2643,6 +2634,11 @@ NOT BOTH AT ONCE
 <wire x1="101.6" y1="133.35" x2="101.6" y2="127" width="0.1524" layer="91"/>
 <label x="96.52" y="127" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U1" gate="U$1" pin="ADC7"/>
+<wire x1="193.04" y1="109.22" x2="200.66" y2="109.22" width="0.1524" layer="91"/>
+<label x="198.12" y="109.22" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="LED2" class="0">
 <segment>
@@ -2650,6 +2646,11 @@ NOT BOTH AT ONCE
 <label x="30.48" y="20.32" size="1.778" layer="95"/>
 <pinref part="U$3" gate="G$1" pin="A1"/>
 <wire x1="20.32" y1="22.86" x2="20.32" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U1" gate="U$1" pin="PD5(T1)"/>
+<wire x1="193.04" y1="91.44" x2="200.66" y2="91.44" width="0.1524" layer="91"/>
+<label x="200.66" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$9" class="0">
