@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2018-11-03T13:06:10Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.0"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "openSX70_ALPHA_V6-2-2-20181103"
+        },
+        "Owner": "Joaquin De Prada <joaco@deprada.net>",
+        "Size": {
+            "X": 95.8835,
+            "Y": 27.8615
+        }
+    }
+}
