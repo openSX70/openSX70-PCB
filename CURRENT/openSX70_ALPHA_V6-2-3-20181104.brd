@@ -779,7 +779,7 @@ CABLE</text>
 <wire x1="34.671" y1="5.8928" x2="26.9494" y2="5.8928" width="0.127" layer="22"/>
 <wire x1="26.9494" y1="5.8928" x2="27.0002" y2="10.9982" width="0.127" layer="22"/>
 <text x="9.8806" y="17.3482" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">LM</text>
-<polygon width="0.1524" layer="22">
+<polygon width="0.1524" layer="21">
 <vertex x="55.88" y="8.89"/>
 <vertex x="55.88" y="5.207"/>
 <vertex x="59.944" y="5.207"/>
@@ -1446,8 +1446,8 @@ design rules under a new name.</description>
 </element>
 <element name="C3" library="Seeed-Capacitor" library_urn="urn:adsk.eagle:library:464" package="C0603" package3d_urn="urn:adsk.eagle:package:32378/1" value="100nf" x="11.44" y="17.005">
 <attribute name="MPN" value="CC0603KRX7R9BB104" x="2.93" y="28.325" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="11.064" y="20.102" size="0.8128" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="NAME" x="2.676" y="29.595" size="0.635" layer="33" ratio="10" rot="R270"/>
+<attribute name="NAME" x="11.064" y="20.102" size="0.8128" layer="25" font="vector" ratio="20" rot="R270"/>
 <attribute name="VALUE" x="1.3425" y="29.595" size="0.635" layer="27" ratio="10" rot="R270"/>
 </element>
 <element name="R14" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" package="R0603" package3d_urn="urn:adsk.eagle:package:32791/1" value="100R" x="15.445" y="16.975">
