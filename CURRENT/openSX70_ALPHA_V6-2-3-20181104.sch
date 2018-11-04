@@ -177,15 +177,6 @@
 <smd name="P$1" x="0.01" y="0.087" dx="2.413" dy="1.143" layer="1"/>
 <text x="-0.762" y="0.254" size="0.3048" layer="21" ratio="4">&gt;NAME</text>
 </package>
-<package name="SX70-7-PAD">
-<smd name="S5" x="5.0165" y="-2.5908" dx="1.31" dy="1.93" layer="1" rot="R296"/>
-<smd name="S3" x="4.2037" y="-1.0668" dx="1.31" dy="1.93" layer="1" rot="R296"/>
-<smd name="GND" x="3.4036" y="0.4953" dx="1.31" dy="1.93" layer="1" rot="R296"/>
-<smd name="MOTOR+" x="2.6543" y="2.0701" dx="1.31" dy="1.93" layer="1" rot="R296"/>
-<smd name="VCC-6V" x="1.8796" y="3.6576" dx="1.31" dy="1.93" layer="1" rot="R296"/>
-<smd name="S9" x="1.1176" y="5.2324" dx="1.31" dy="1.93" layer="1" rot="R296"/>
-<smd name="S8" x="0.3556" y="6.8072" dx="1.31" dy="1.93" layer="1" rot="R296"/>
-</package>
 <package name="SX70-SOLENOID1-2">
 <smd name="SOL1+" x="-0.8255" y="0.127" dx="1.3716" dy="2.54" layer="1"/>
 <smd name="SOL1-" x="0.9525" y="0.127" dx="1.3716" dy="2.54" layer="1"/>
@@ -455,19 +446,6 @@
 <pin name="S" x="7.62" y="0" length="short" rot="R180"/>
 <text x="-8.89" y="-1.016" size="1.778" layer="94" ratio="4">&gt;NAME</text>
 </symbol>
-<symbol name="SX70-7-PAD-SYMBOL">
-<wire x1="-7.62" y1="17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-17.78" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
-<wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
-<pin name="S9" x="10.16" y="15.24" length="short" rot="R180"/>
-<pin name="S8" x="10.16" y="10.16" length="short" rot="R180"/>
-<pin name="6V" x="10.16" y="5.08" length="short" rot="R180"/>
-<pin name="MOTOR+" x="10.16" y="0" length="short" rot="R180"/>
-<pin name="GND" x="10.16" y="-5.08" length="short" rot="R180"/>
-<pin name="S3" x="10.16" y="-10.16" length="short" rot="R180"/>
-<pin name="S5" x="10.16" y="-15.24" length="short" rot="R180"/>
-</symbol>
 <symbol name="SX70-SOLENOID1-2-SYMBOL">
 <wire x1="-10.16" y1="7.62" x2="-10.16" y2="-10.16" width="0.1524" layer="94"/>
 <wire x1="-10.16" y1="-10.16" x2="10.16" y2="-10.16" width="0.1524" layer="94"/>
@@ -604,27 +582,6 @@ Switches electronic signals</description>
 <device name="" package="SX70-S-PAD2">
 <connects>
 <connect gate="G$1" pin="S" pad="P$1"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SX70-7-PAD">
-<gates>
-<gate name="G$1" symbol="SX70-7-PAD-SYMBOL" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SX70-7-PAD">
-<connects>
-<connect gate="G$1" pin="6V" pad="VCC-6V"/>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="MOTOR+" pad="MOTOR+"/>
-<connect gate="G$1" pin="S3" pad="S3"/>
-<connect gate="G$1" pin="S5" pad="S5"/>
-<connect gate="G$1" pin="S8" pad="S8"/>
-<connect gate="G$1" pin="S9" pad="S9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1595,6 +1552,18 @@ Created by Yingchun,shan&lt;br&gt;
 <smd name="2" x="0.6" y="0.35" dx="0.5" dy="0.4" layer="1" rot="R180"/>
 <smd name="1" x="-0.6" y="0.35" dx="0.5" dy="0.4" layer="1" rot="R180"/>
 </package>
+<package name="SX70-7-PAD-PROPER">
+<text x="0.5" y="-1" size="0.6096" layer="51">camera connector</text>
+<text x="0.5" y="-2" size="0.6096" layer="51">pitch 1,75mm</text>
+<text x="0.5" y="-3" size="0.6096" layer="51">angle 296º inversed 244º</text>
+<smd name="S8" x="0.875" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="S9" x="2.625" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="VCC" x="4.375" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="MOTOR" x="6.125" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="GND" x="7.875" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="S3" x="9.625" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+<smd name="S5" x="11.375" y="1.3125" dx="2.159" dy="1.31" layer="1" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="LED">
@@ -1643,6 +1612,19 @@ Created by Yingchun,shan&lt;br&gt;
 <vertex x="5.207" y="-2.921"/>
 </polygon>
 </symbol>
+<symbol name="SX70-7-PAD-SYMBOL">
+<wire x1="-7.62" y1="17.78" x2="-7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-17.78" x2="7.62" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-17.78" x2="7.62" y2="17.78" width="0.254" layer="94"/>
+<wire x1="7.62" y1="17.78" x2="-7.62" y2="17.78" width="0.254" layer="94"/>
+<pin name="S8" x="10.16" y="15.24" length="short" rot="R180"/>
+<pin name="S9" x="10.16" y="10.16" length="short" rot="R180"/>
+<pin name="6V" x="10.16" y="5.08" length="short" rot="R180"/>
+<pin name="MOTOR+" x="10.16" y="0" length="short" rot="R180"/>
+<pin name="GND" x="10.16" y="-5.08" length="short" rot="R180"/>
+<pin name="S3" x="10.16" y="-10.16" length="short" rot="R180"/>
+<pin name="S5" x="10.16" y="-15.24" length="short" rot="R180"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="DUAL-LED-0603-BIS">
@@ -1656,6 +1638,27 @@ Created by Yingchun,shan&lt;br&gt;
 <connect gate="G$1" pin="A1" pad="3"/>
 <connect gate="G$1" pin="C" pad="2"/>
 <connect gate="G$1" pin="C1" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SX70-7-PAD">
+<gates>
+<gate name="G$1" symbol="SX70-7-PAD-SYMBOL" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SX70-7-PAD-PROPER">
+<connects>
+<connect gate="G$1" pin="6V" pad="VCC"/>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="MOTOR+" pad="MOTOR"/>
+<connect gate="G$1" pin="S3" pad="S3"/>
+<connect gate="G$1" pin="S5" pad="S5"/>
+<connect gate="G$1" pin="S8" pad="S8"/>
+<connect gate="G$1" pin="S9" pad="S9"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1710,7 +1713,6 @@ Created by Yingchun,shan&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="U$1" library="openSX70" deviceset="SX70-7-PAD" device=""/>
 <part name="U$2" library="openSX70" deviceset="SX70-FFA-PAD" device="" value="FFA"/>
 <part name="S2+" library="openSX70" deviceset="SX70-S-PAD-NEW" device=""/>
 <part name="S2-" library="openSX70" deviceset="SX70-S-PAD-NEW" device=""/>
@@ -1778,6 +1780,7 @@ Created by Yingchun,shan&lt;br&gt;
 <part name="U$3" library="_openSX70" deviceset="DUAL-LED-0603-BIS" device=""/>
 <part name="R16" library="Seeed-Resistor" library_urn="urn:adsk.eagle:library:474" deviceset="SMD-RES-1K-5%-1/10W(0603)" device="" package3d_urn="urn:adsk.eagle:package:32791/1" value="1K 1/10W"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
+<part name="U$1" library="_openSX70" deviceset="SX70-7-PAD" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1809,7 +1812,7 @@ SWITCH N-MOSFET</text>
 <text x="29.972" y="163.83" size="2.1844" layer="91" align="center">openSX70 DONGLE
 or
 FLASH</text>
-<text x="246.38" y="2.54" size="2.1844" layer="97" align="center">v 6.6.2</text>
+<text x="246.38" y="2.54" size="2.1844" layer="97" align="center">v 6.6.3</text>
 <text x="203.454" y="24.638" size="2.0066" layer="97" align="center">Design by Joaquín de Prada
 Creative Commons "Attribution-NonCommercial 4.0 International (CC BY-NC 4.0)" 
 https://creativecommons.org/licenses/by-nc/4.0/</text>
@@ -1827,7 +1830,6 @@ NOT BOTH AT ONCE
 </text>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="238.76" y="93.98" rot="MR0"/>
 <instance part="U$2" gate="G$1" x="20.32" y="134.62"/>
 <instance part="S2+" gate="G$1" x="40.64" y="132.08" rot="R270">
 <attribute name="NAME" x="39.624" y="140.97" size="1.778" layer="94" ratio="4" rot="R270"/>
@@ -2055,6 +2057,7 @@ NOT BOTH AT ONCE
 <instance part="GND13" gate="1" x="25.4" y="10.16" rot="R90">
 <attribute name="VALUE" x="27.94" y="7.62" size="1.778" layer="96" rot="R90"/>
 </instance>
+<instance part="U$1" gate="G$1" x="242.824" y="93.98" rot="MR0"/>
 </instances>
 <busses>
 </busses>
@@ -2101,9 +2104,10 @@ NOT BOTH AT ONCE
 <label x="195.58" y="81.28" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S3"/>
-<wire x1="228.6" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="232.664" y1="83.82" x2="220.98" y2="83.82" width="0.1524" layer="91"/>
 <label x="220.98" y="83.82" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="S3"/>
+<wire x1="232.664" y1="83.82" x2="232.918" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S5" class="0">
@@ -2113,9 +2117,10 @@ NOT BOTH AT ONCE
 <label x="195.58" y="86.36" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="S5"/>
-<wire x1="228.6" y1="78.74" x2="220.98" y2="78.74" width="0.1524" layer="91"/>
 <label x="220.98" y="78.74" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="S5"/>
+<wire x1="232.664" y1="78.74" x2="220.98" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="232.664" y1="78.74" x2="232.918" y2="78.74" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SOL2" class="0">
@@ -2229,8 +2234,9 @@ NOT BOTH AT ONCE
 <net name="GND" class="0">
 <segment>
 <pinref part="GND2" gate="1" pin="GND"/>
+<wire x1="220.98" y1="88.9" x2="232.664" y2="88.9" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="GND"/>
-<wire x1="220.98" y1="88.9" x2="228.6" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="232.664" y1="88.9" x2="232.918" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="F-"/>
@@ -2333,8 +2339,9 @@ NOT BOTH AT ONCE
 <net name="6V" class="0">
 <segment>
 <pinref part="P+1" gate="VCC" pin="6V"/>
+<wire x1="220.98" y1="99.06" x2="232.664" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$1" pin="6V"/>
-<wire x1="220.98" y1="99.06" x2="228.6" y2="99.06" width="0.1524" layer="91"/>
+<wire x1="232.664" y1="99.06" x2="232.918" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="VCC" pin="6V"/>
@@ -2464,10 +2471,11 @@ NOT BOTH AT ONCE
 </net>
 <net name="MOTOR-HEADER" class="0">
 <segment>
-<pinref part="U$1" gate="G$1" pin="MOTOR+"/>
-<wire x1="228.6" y1="93.98" x2="215.9" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="232.664" y1="93.98" x2="215.9" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="2"/>
 <wire x1="215.9" y1="121.92" x2="215.9" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U$1" gate="G$1" pin="MOTOR+"/>
+<wire x1="232.664" y1="93.98" x2="232.918" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="DTR" class="0">
@@ -2489,9 +2497,10 @@ NOT BOTH AT ONCE
 <label x="0" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
+<label x="220.98" y="111.76" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="S8"/>
-<wire x1="228.6" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
-<label x="218.44" y="104.14" size="1.778" layer="95"/>
+<wire x1="232.664" y1="109.22" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="232.664" y1="109.22" x2="232.918" y2="109.22" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="S9@6V" class="0">
@@ -2501,9 +2510,9 @@ NOT BOTH AT ONCE
 <label x="48.26" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
+<wire x1="232.664" y1="104.14" x2="220.98" y2="104.14" width="0.1524" layer="91"/>
+<label x="220.98" y="106.68" size="1.778" layer="95"/>
 <pinref part="U$1" gate="G$1" pin="S9"/>
-<wire x1="228.6" y1="109.22" x2="220.98" y2="109.22" width="0.1524" layer="91"/>
-<label x="218.44" y="109.22" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RST" class="0">
