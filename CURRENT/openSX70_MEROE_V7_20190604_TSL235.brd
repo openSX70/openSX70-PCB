@@ -669,8 +669,8 @@ METER</text>
 <text x="13.23975" y="25.05075" size="0.7112" layer="21" font="vector" ratio="10" rot="R90">VCC</text>
 <text x="14.478" y="25.05075" size="0.7112" layer="21" font="vector" ratio="10" rot="R90">GND</text>
 <text x="16.256" y="9.30275" size="0.8128" layer="21" font="vector" ratio="20" rot="R180">GND</text>
-<text x="29.9871" y="25.94645" size="0.8128" layer="25" font="vector" ratio="20">LED</text>
-<text x="28.19375" y="25.80615" size="0.8128" layer="25" font="vector" ratio="20" rot="MR0">A+</text>
+<text x="29.0219" y="25.69245" size="0.8128" layer="25" font="vector" ratio="20">LED</text>
+<text x="27.22905" y="26.64435" size="0.8128" layer="26" font="vector" ratio="20" rot="R270">A+</text>
 <text x="79.72425" y="24.0665" size="0.8128" layer="21" font="vector" ratio="20" rot="R90">SOL2-</text>
 <text x="50.0733" y="3.79025" size="1.27" layer="22" font="vector" ratio="15" rot="MR0">MERÖE</text>
 <text x="35.8775" y="25.87625" size="1.9304" layer="21" font="vector" ratio="15">www.openSX70.com</text>
